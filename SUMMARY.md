@@ -13,6 +13,7 @@
 * [4 基礎語法](4-ji-chu-yu-fa/README.md)
   * [4.1 建立 application 實體](4-ji-chu-yu-fa/4.1-jian-li-application-shi-ti.md)
   * [4.2 template 語法](4-ji-chu-yu-fa/4.2-template-yu-fa.md)
+  * [4.2 nextTick](4-ji-chu-yu-fa/4.2-nexttick.md)
   * [4.2 元件生命週期](4-ji-chu-yu-fa/4.2-yuan-jian-sheng-ming-zhou-qi.md)
   * [4.3 常用語法](4-ji-chu-yu-fa/4.3-chang-yong-yu-fa.md)
   * [4.4 資料屬性與方法](4-ji-chu-yu-fa/4.4-zi-liao-shu-xing-yu-fang-fa.md)
