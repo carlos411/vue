@@ -2,6 +2,7 @@
 
 * [前端框架 - Vue.js](README.md)
 * [1 簡介](1-jian-jie/README.md)
+  * [1.1 講者簡介](1-jian-jie/1.1-jiang-zhe-jian-jie.md)
   * [1.1 前置](1-jian-jie/1.1-qian-zhi.md)
 * [2 JS 模組介紹](2-js-mo-zu-jie-shao/README.md)
   * [2.1 模組觀念](2-js-mo-zu-jie-shao/2.1-mo-zu-guan-nian.md)
