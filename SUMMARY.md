@@ -34,5 +34,5 @@
   * [5.6 使用 slot 實作 FencyList](5-vue-yuan-jian/5.6-shi-yong-slot-shi-zuo-fencylist.md)
   * [5.7 動態元件](5-vue-yuan-jian/5.7-dong-tai-yuan-jian.md)
   * [5.8 Provide 和 Inject](5-vue-yuan-jian/5.8-provide-he-inject.md)
-* [6 Vue Router](6-vue-router.md)
-* [6 參考](6-can-kao.md)
+* [6 Vue Router](vue-router.md)
+* [8 參考資料](8-can-kao-zi-liao.md)
