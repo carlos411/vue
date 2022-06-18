@@ -34,6 +34,6 @@
   * [5.7 動態元件](5-vue-yuan-jian/5.7-dong-tai-yuan-jian.md)
   * [5.8 Provide 和 Inject](5-vue-yuan-jian/5.8-provide-he-inject.md)
 * [6 Vue Router](vue-router.md)
-* [7 其它補充](7-qi-ta-bu-chong/README.md)
-  * [7.1 CommonJS 與 ESM 模組](7-qi-ta-bu-chong/7.1-commonjs-yu-esm-mo-zu.md)
+* [7 其它補充](7-qi-ta-bu-chong.md)
+  * [7.1 CommonJS 與 ESM 模組](2-js-mo-zu-jie-shao/2.3-lian-xi-zhuan-xie-mo-zu.md)
 * [8 參考資料](6-can-kao.md)
