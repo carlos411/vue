@@ -35,4 +35,5 @@
   * [5.7 動態元件](5-vue-yuan-jian/5.7-dong-tai-yuan-jian.md)
   * [5.8 Provide 和 Inject](5-vue-yuan-jian/5.8-provide-he-inject.md)
 * [6 Vue Router](vue-router.md)
-* [8 參考資料](8-can-kao-zi-liao.md)
+* [7 其它補充](7-qi-ta-bu-chong.md)
+* [8 參考資料](6-can-kao.md)
