@@ -5,7 +5,7 @@
   * [1.1 講者簡介](1-jian-jie/1.1-jiang-zhe-jian-jie.md)
   * [1.2 前置](1-jian-jie/1.1-qian-zhi.md)
 * [2 JS 模組介紹](2-js-mo-zu-jie-shao/README.md)
-  * [2.1 模組觀念](2-js-mo-zu-jie-shao/2.1-mo-zu-guan-nian.md)
+  * [2.1 基本模組寫法](2-js-mo-zu-jie-shao/2.1-ji-ben-mo-zu-xie-fa.md)
   * [2.2 export 和 import](2-js-mo-zu-jie-shao/2.2-export-he-import.md)
 * [3 安裝 Vue](3-an-zhuang-vue/README.md)
   * [3.1 下載安裝](3-an-zhuang-vue/3.1-xia-zai-an-zhuang.md)
