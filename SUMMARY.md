@@ -11,7 +11,7 @@
   * [3.1 下載安裝](3-an-zhuang-vue/3.1-xia-zai-an-zhuang.md)
   * [3.2 第一個 Vue](3-an-zhuang-vue/3.2-di-yi-ge-vue.md)
 * [4 基礎語法](4-ji-chu-yu-fa/README.md)
-  * [4.1 建立 application 實體](4-ji-chu-yu-fa/4.1-jian-li-application-shi-ti.md)
+  * [4.1 基本建立](4-ji-chu-yu-fa/4.1-ji-ben-jian-li.md)
   * [4.2 template 語法](4-ji-chu-yu-fa/4.2-template-yu-fa.md)
   * [4.3 template 中的 ref](4-ji-chu-yu-fa/4.3-template-zhong-de-ref.md)
   * [4.2 元件生命週期](4-ji-chu-yu-fa/4.2-yuan-jian-sheng-ming-zhou-qi.md)
