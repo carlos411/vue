@@ -15,7 +15,7 @@
   * [4.2 template 語法](4-ji-chu-yu-fa/4.2-template-yu-fa.md)
   * [4.3 template 中的 ref](4-ji-chu-yu-fa/4.3-template-zhong-de-ref.md)
   * [4.4 directives 基本](4-ji-chu-yu-fa/4.4-chang-yong-yu-fa.md)
-  * [4.4 資料屬性與方法](4-ji-chu-yu-fa/4.4-zi-liao-shu-xing-yu-fang-fa.md)
+  * [4.4 總結 data 與 methods](4-ji-chu-yu-fa/4.4-zong-jie-data-yu-methods.md)
   * [4.5 Computed Properties 和 Watcher](4-ji-chu-yu-fa/4.5-computed-properties-he-watcher.md)
   * [4.6 CSS 當中的 class 和 style](4-ji-chu-yu-fa/4.6-css-dang-zhong-de-class-he-style.md)
   * [4.7 條件式判斷](4-ji-chu-yu-fa/4.7-tiao-jian-shi-pan-duan.md)
