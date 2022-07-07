@@ -18,7 +18,7 @@
   * [4.4 指令 directive - 基礎](4-he-xin-yu-fa/4.4-zhi-ling-directive-ji-chu.md)
   * [4.5 元件 component - data 函式與 methods 屬性](4-he-xin-yu-fa/4.5-yuan-jian-component-data-han-shi-yu-methods-shu-xing.md)
   * [4.6 元件 component - Computed Properties 和 Watcher](4-he-xin-yu-fa/4.6-yuan-jian-component-computed-properties-he-watcher.md)
-  * [4.6 CSS 當中的 class 和 style](4-he-xin-yu-fa/4.6-css-dang-zhong-de-class-he-style.md)
+  * [4.7 指令 directive - class 和 style](4-he-xin-yu-fa/4.7-zhi-ling-directive-class-he-style.md)
   * [4.7 條件式判斷](4-he-xin-yu-fa/4.7-tiao-jian-shi-pan-duan.md)
   * [4.8 迴圈](4-he-xin-yu-fa/4.8-hui-quan.md)
   * [4.9 事件綁定](4-he-xin-yu-fa/4.9-shi-jian-bang-ding.md)
