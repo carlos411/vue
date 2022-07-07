@@ -14,7 +14,7 @@
 * [4 核心語法](4-he-xin-yu-fa/README.md)
   * [4.1 基本用法](4-he-xin-yu-fa/4.1-ji-ben-yong-fa.md)
   * [4.2 樣版 template - 語法](4-he-xin-yu-fa/4.2-yang-ban-template-yu-fa.md)
-  * [4.3 樣版 - template 中的 ref](4-he-xin-yu-fa/4.3-yang-ban-template-zhong-de-ref.md)
+  * [4.3 樣版 template - ref 屬性](4-he-xin-yu-fa/4.3-yang-ban-template-ref-shu-xing.md)
   * [4.4 directives - 基礎](4-he-xin-yu-fa/4.4-directives-ji-chu.md)
   * [4.5 元件 - data 函式與 methods 屬性](4-he-xin-yu-fa/4.5-data-han-shi-yu-methods-shu-xing.md)
   * [4.6 元件 - Computed Properties 和 Watcher](4-he-xin-yu-fa/4.6-computed-properties-he-watcher.md)
