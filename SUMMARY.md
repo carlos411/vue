@@ -20,7 +20,7 @@
   * [4.6 元件 component - Computed Properties 和 Watcher](4-he-xin-yu-fa/4.6-yuan-jian-component-computed-properties-he-watcher.md)
   * [4.7 指令 directive - class 和 style](4-he-xin-yu-fa/4.7-zhi-ling-directive-class-he-style.md)
   * [4.8 指令 directive - 條件式判斷](4-he-xin-yu-fa/4.8-zhi-ling-directive-tiao-jian-shi-pan-duan.md)
-  * [4.8 迴圈](4-he-xin-yu-fa/4.8-hui-quan.md)
+  * [4.9 指令 directive - 迴圈](4-he-xin-yu-fa/4.9-zhi-ling-directive-hui-quan.md)
   * [4.9 事件綁定](4-he-xin-yu-fa/4.9-shi-jian-bang-ding.md)
   * [4.10 關於表單](4-he-xin-yu-fa/4.10-guan-yu-biao-dan.md)
   * [4.2 nextTick](4-he-xin-yu-fa/4.2-nexttick.md)
