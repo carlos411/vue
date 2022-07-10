@@ -24,7 +24,7 @@
   * [4.10 指令 directive - 事件綁定](4-he-xin-yu-fa/4.10-zhi-ling-directive-shi-jian-bang-ding.md)
   * [4.11 指令 directive - v-model 與 表單](4-he-xin-yu-fa/4.10-guan-yu-biao-dan.md)
   * [4.12 關於 nextTick](4-he-xin-yu-fa/4.12-guan-yu-nexttick.md)
-  * [4.13 元件生命週期](4-he-xin-yu-fa/4.13-yuan-jian-sheng-ming-zhou-qi.md)
+  * [4.13 元件生命週期](4-he-xin-yu-fa/4.4-yuan-jian-sheng-ming-zhou-qi.md)
 * [5 Vue 元件](5-vue-yuan-jian/README.md)
   * [5.1 使用元件](5-vue-yuan-jian/5.1-shi-yong-yuan-jian.md)
   * [5.2 props](5-vue-yuan-jian/5.2-props.md)
