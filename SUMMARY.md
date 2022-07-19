@@ -26,7 +26,7 @@
   * [4.12 關於 nextTick](4-he-xin-yu-fa/4.12-guan-yu-nexttick.md)
   * [4.13 生命週期及 template 屬性](4-he-xin-yu-fa/4.13-sheng-ming-zhou-qi-ji-template-shu-xing.md)
 * [5 Vue 元件](5-vue-yuan-jian/README.md)
-  * [5.1 使用元件](5-vue-yuan-jian/5.1-shi-yong-yuan-jian.md)
+  * [5.1 建立及使用元件](5-vue-yuan-jian/5.1-jian-li-ji-shi-yong-yuan-jian.md)
   * [5.2 props](5-vue-yuan-jian/5.2-props.md)
   * [5.3 Events](5-vue-yuan-jian/5.3-events.md)
   * [5.4 Fallthrough Attributes](5-vue-yuan-jian/5.4-fallthrough-attributes.md)
