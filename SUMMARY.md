@@ -38,3 +38,4 @@
   * [安裝 Vue Router](6-vue-router/an-zhuang-vue-router.md)
 * [7 參考資料](6-can-kao.md)
   * [7.1 CommonJS 與 ESM 模組](2-js-mo-zu-jie-shao/2.3-lian-xi-zhuan-xie-mo-zu.md)
+* [7 大量練習](7-da-liang-lian-xi.md)
