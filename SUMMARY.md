@@ -37,4 +37,4 @@
 * [6 Vue Router](6-vue-router/README.md)
   * [安裝 Vue Router](6-vue-router/an-zhuang-vue-router.md)
 * [7 大量練習](7-da-liang-lian-xi.md)
-* [8 參考資料](8-can-kao-zi-liao.md)
+* [8 參考資料](6-can-kao.md)
