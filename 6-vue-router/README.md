@@ -1,4 +1,4 @@
-# 6 Vue Router
+# 7 Vue Router
 
 [https://router.vuejs.org/](https://router.vuejs.org/)
 
