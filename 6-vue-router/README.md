@@ -87,3 +87,13 @@ $ npm install --save-dev sass
 $ npm uninstall sass
 ```
 
+
+
+如果要使用 PostCSS 的巢狀功能，就安裝：
+
+```bash
+$ npm install --save-dev postcss-nesting
+```
+
+
+
