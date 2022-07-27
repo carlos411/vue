@@ -31,5 +31,25 @@ $ npm run dev
 
 ## 使用 CSS 及 SASS
 
+除了在 css 檔中可以使用 @import 語法之外，也可以使用以下：
 
+
+
+以 `App.vue` 為例：
+
+```javascript
+<script setup>
+  import './assets/main.css'
+</script>
+
+<style>
+  @import "./assets/main.css" (max-width: 800px);
+</style>
+```
+
+以 `main.js` 為例：
+
+```javascript
+import './assets/main.css'
+```
 
