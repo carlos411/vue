@@ -95,5 +95,13 @@ $ npm uninstall sass
 $ npm install --save-dev postcss-nesting
 ```
 
+然後建立 `postcss.config.js` 檔案，內容如下：
 
+```javascript
+export default {
+  plugins: {
+    "postcss-nesting": {}
+  }
+}
+```
 
