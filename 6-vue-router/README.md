@@ -29,7 +29,7 @@ $ npm run dev
 
 
 
-## 使用 CSS 及 SASS
+## 使用 CSS 或 SASS 或 PostCSS
 
 除了在 css 檔中可以使用 @import 語法之外，也可以使用以下：
 
