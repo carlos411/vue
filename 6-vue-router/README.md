@@ -53,3 +53,29 @@ $ npm run dev
 import './assets/main.css'
 ```
 
+
+
+如果要使用 sass 語法，需先安裝：
+
+```bash
+$ npm install --save-dev sass
+```
+
+然後只要將 main.css 的檔名，改成 main.scss 或 main.sass，然後載入即可。
+
+
+
+以及如果要在元件當中的 style 標籤使用 scss 或 sass 語法的話，可使用以下：
+
+```html
+<style lang="sass">
+</style>
+```
+
+或
+
+```html
+<style lang="scss">
+</style>
+```
+
