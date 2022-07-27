@@ -79,3 +79,11 @@ $ npm install --save-dev sass
 </style>
 ```
 
+
+
+註：如果要移除 sass，就執行以下指令：
+
+```bash
+$ npm uninstall sass
+```
+
