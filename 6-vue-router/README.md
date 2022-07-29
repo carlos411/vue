@@ -149,7 +149,7 @@ console.log(logo);
 }
 ```
 
-在 script 當中使用：
+在 `src/App.vue` 的 script 當中使用：
 
 ```javascript
 import data from './data.json';
