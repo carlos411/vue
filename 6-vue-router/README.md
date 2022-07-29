@@ -111,6 +111,32 @@ export default {
 
 
 
+在 script 當中使用：
+
+```javascript
+import logo from './assets/vue.svg';
+console.log(logo);
+
+const logo = new URL("./assets/vue.svg", import.meta.url).href;
+console.log(logo);
+```
+
+
+
+在 template 當中使用：
+
+```html
+<!-- 絕對路徑，在 public 資料夾下 -->
+<img src="/vite.svg">
+<!-- 相對路徑 -->
+<img src="./assets/vue.svg">
+
+<!-- 使用變數 logo -->
+<img :src="logo">
+```
+
+
+
 ## dev 與 build 與 preview
 
 啟動開發用的伺服器：
