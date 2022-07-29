@@ -105,3 +105,29 @@ export default {
 }
 ```
 
+
+
+## 載入圖片
+
+
+
+## dev 與 build 與 preview
+
+啟動開發用的伺服器：
+
+```bash
+$ npm run dev
+```
+
+build：
+
+```bash
+$ npm run build
+```
+
+瀏覽 build 之後的頁面：
+
+```bash
+$ npm run preview
+```
+
