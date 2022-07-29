@@ -137,6 +137,31 @@ console.log(logo);
 
 
 
+## 載入 JSON 檔
+
+假設 `src/data.json` 內容如下：
+
+```javascript
+{
+  "framework": "Vue",
+  "buildTool": "Vite, of course!",
+  "developerMood": "Happy."
+}
+```
+
+在 script 當中使用：
+
+```javascript
+import data from './data.json';
+console.log(data);
+
+// 以下這個，在 npm run build 之後，只會載入需要的，效能較好
+import { developerMood } from './data.json';
+console.log(developerMood);
+```
+
+
+
 ## dev 與 build 與 preview
 
 啟動開發用的伺服器：
