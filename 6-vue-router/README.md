@@ -162,6 +162,25 @@ console.log(developerMood);
 
 
 
+## 載入資料夾裡的所有 JS 檔
+
+```javascript
+/*
+// 非同步方式
+const autoImportedModules = import.meta.glob("./autoImports/*.js");
+console.log(autoImportedModules);
+for(const path in autoImportedModules){
+  autoImportedModules[path]();
+}
+*/
+
+
+// 同步方式
+const autoImportedModules = import.meta.globEager("./autoImports/*.js");
+```
+
+
+
 ## dev 與 build 與 preview
 
 啟動開發用的伺服器：
