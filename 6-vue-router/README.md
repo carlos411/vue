@@ -162,7 +162,9 @@ console.log(developerMood);
 
 
 
-## 載入資料夾裡的所有 JS 檔
+## 自動載入
+
+自動載入 `src/autoImports` 資料夾裡的所有 JS 檔，以下提供兩個方式：
 
 ```javascript
 /*
@@ -176,7 +178,7 @@ for(const path in autoImportedModules){
 
 
 // 同步方式
-const autoImportedModules = import.meta.globEager("./autoImports/*.js");
+// const autoImportedModules = import.meta.globEager("./autoImports/*.js");
 ```
 
 
