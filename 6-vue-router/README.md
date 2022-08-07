@@ -187,6 +187,21 @@ for(const path in autoImportedModules){
 
 使用 **`import.meta.env`**。
 
+在根資料夾下，建立 **`.env`** 檔案，內容如下：
+
+如果是以 **`VITE_`** 做開頭的，就會被放入 **`import.meta.env`** 物件當中：
+
+```
+VITE_MY_HEADLESS_CMS_PUBLIC_KEY=123
+VITE_MY_HEADLESS_CMS_URL=https://mycms.com
+```
+
+模式可透過以下指令來改變( **`import.meta.env`** 裡的 mode 就會改變 )：
+
+```bash
+$ npm run build -- --mode-staging
+```
+
 
 
 ## dev 與 build 與 preview
@@ -201,7 +216,10 @@ build：
 
 ```bash
 $ npm run build
+$ npm run build -- --mode=staging
 ```
+
+
 
 瀏覽 build 之後的頁面：
 
