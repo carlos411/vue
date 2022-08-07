@@ -183,6 +183,12 @@ for(const path in autoImportedModules){
 
 
 
+## 環境變數與模式
+
+使用 **`import.meta.env`**。
+
+
+
 ## dev 與 build 與 preview
 
 啟動開發用的伺服器：
