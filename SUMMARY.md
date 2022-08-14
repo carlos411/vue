@@ -33,7 +33,7 @@
   * [5.5 slots 機制](5-vue-yuan-jian/5.5-slots-ji-zhi.md)
   * [5.6 動態元件](5-vue-yuan-jian/5.7-dong-tai-yuan-jian.md)
   * [5.7 Provide 和 Inject](5-vue-yuan-jian/5.7-provide-he-inject.md)
-* [6 大量練習](7-da-liang-lian-xi.md)
+* [6 作業](6-zuo-ye.md)
 * [7 整合](6-vue-router/README.md)
   * [安裝 Vue Router](6-vue-router/an-zhuang-vue-router.md)
 * [8 參考資料](6-can-kao.md)
