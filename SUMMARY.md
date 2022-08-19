@@ -34,5 +34,7 @@
   * [5.6 動態元件](5-vue-yuan-jian/5.7-dong-tai-yuan-jian.md)
   * [5.7 Provide 和 Inject](5-vue-yuan-jian/5.7-provide-he-inject.md)
 * [6 作業](6-zuo-ye.md)
-* [7 官方套件](7-guan-fang-tao-jian.md)
+* [7 官方套件](7-guan-fang-tao-jian/README.md)
+  * [Vite](7-guan-fang-tao-jian/vite.md)
+  * [Vue Router](7-guan-fang-tao-jian/vue-router.md)
 * [8 參考資料](6-can-kao.md)
