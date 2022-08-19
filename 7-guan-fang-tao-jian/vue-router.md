@@ -5,6 +5,6 @@
 ## 安裝
 
 ```bash
-$ npm install vue-router@4
+$ npm install vue-router@4 --save
 ```
 
