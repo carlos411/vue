@@ -12,7 +12,7 @@
   * [3.1 下載安裝](3-an-zhuang-vue/3.1-xia-zai-an-zhuang.md)
   * [3.2 第一個 Vue](3-an-zhuang-vue/3.2-di-yi-ge-vue.md)
 * [4 核心語法](4-he-xin-yu-fa/README.md)
-  * [4.1 基本用法](4-he-xin-yu-fa/4.1-ji-ben-yong-fa.md)
+  * [4.1 MVVM 模式](4-he-xin-yu-fa/4.1-mvvm-mo-shi.md)
   * [4.2 樣版 template - 語法](4-he-xin-yu-fa/4.2-yang-ban-template-yu-fa.md)
   * [4.3 樣版 template - ref 屬性](4-he-xin-yu-fa/4.3-yang-ban-template-zhong-de-ref.md)
   * [4.4 指令 directive - 基礎](4-he-xin-yu-fa/4.4-zhi-ling-directive-ji-chu.md)
