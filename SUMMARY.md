@@ -17,7 +17,7 @@
   * [4.3 樣版 template - ref 屬性](4-he-xin-yu-fa/4.3-yang-ban-template-zhong-de-ref.md)
   * [4.4 指令 directive - 基礎](4-he-xin-yu-fa/4.4-zhi-ling-directive-ji-chu.md)
   * [4.5 data 函式與 methods 屬性](4-he-xin-yu-fa/4.5-data-han-shi-yu-methods-shu-xing.md)
-  * [4.6 Computed Properties 和 Watcher](4-he-xin-yu-fa/4.6-computed-properties-he-watcher.md)
+  * [4.6 computed 屬性和 watch 屬性](4-he-xin-yu-fa/4.6-computed-shu-xing-he-watch-shu-xing.md)
   * [4.7 指令 directive - class 和 style](4-he-xin-yu-fa/4.7-zhi-ling-directive-class-he-style.md)
   * [4.8 指令 directive - 條件式判斷](4-he-xin-yu-fa/4.8-zhi-ling-directive-tiao-jian-shi-pan-duan.md)
   * [4.9 指令 directive - 迴圈](4-he-xin-yu-fa/4.9-zhi-ling-directive-hui-quan.md)
