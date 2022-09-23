@@ -8,7 +8,7 @@
 
 完成以下項目：
 
-* index.html 頁面需載入 jquery vue 以及 index.js。
+* index.html 頁面需載入 ~~jquery~~ vue 以及 index.js。
 * `input.task_name` 在 focus 事件觸發時，`div.task_add_block` 加上 `-on` class。
 * `input.task_name` 在 blur 事件觸發時，`div.task_add_block` 移除 `-on` class。
 
