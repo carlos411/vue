@@ -1,18 +1,16 @@
 # 6 作業
 
-文章分類頁
-
-文章詳細頁
 
 
-
-## 1 Checkbox 全選
+## 第 1 步
 
 
 
+完成以下項目：
 
-
-## 2 breadcrumb 介面
+* index.html 頁面需載入 jquery vue 以及 index.js。
+* `input.task_name` 在 focus 事件觸發時，`div.task_add_block` 加上 `-on` class。
+* `input.task_name` 在 blur 事件觸發時，`div.task_add_block` 移除 `-on` class。
 
 
 
