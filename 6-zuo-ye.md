@@ -74,6 +74,41 @@ const vm = app.mount("#task_container");
 
 ## 第 2 步：新增
 
+待辦事項一大串的 li：
+
+{% code lineNumbers="true" %}
+```html
+<li>
+  <div class="item_flex">
+    <div class="left_block">
+      <div class="btn_flex">
+        <button type="button" class="btn_up">往上</button>
+        <button type="button" class="btn_down">往下</button>
+      </div>
+    </div>
+    <div class="middle_block">
+      <div class="star_block">
+        <span class="star" data-star="1"><i class="fas fa-star"></i></span>
+        <span class="star" data-star="2"><i class="fas fa-star"></i></span>
+        <span class="star" data-star="3"><i class="fas fa-star"></i></span>
+        <span class="star" data-star="4"><i class="fas fa-star"></i></span>
+        <span class="star" data-star="5"><i class="fas fa-star"></i></span>
+      </div>
+      <p class="para">這是任務這是任務這是任務這是任務這是任務這是任務這是任務這是任務這是任務這是任務這是任務這是任務</p>
+    </div>
+    <div class="right_block">
+      <div class="btn_flex">
+        <button type="button" class="btn_update">更新</button>
+        <button type="button" class="btn_delete">移除</button>
+      </div>
+    </div>
+  </div>
+</li>
+```
+{% endcode %}
+
+
+
 完成以下項目：
 
 * 按下「新增」按鈕時，將待辦事項 html(一大串的 li)，新增到 `ul.task_list` 裡，新增到裡面的最前面。
