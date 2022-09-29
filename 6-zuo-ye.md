@@ -63,13 +63,10 @@ app.mount("#task_container");
 
 
 
-## 第 1 步：載入 vue.global.prod.js
-
-
+## 第 1 步：
 
 完成以下項目：
 
-* index.html 頁面需載入 ~~jquery~~ vue 以及 index.js。
 * `input.task_name` 在 focus 事件觸發時，`div.task_add_block` 加上 `-on` class。
 * `input.task_name` 在 blur 事件觸發時，`div.task_add_block` 移除 `-on` class。
 
