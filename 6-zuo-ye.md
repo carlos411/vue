@@ -6,7 +6,7 @@
 
 
 
-## 第 1 步：載入 Vue
+## 第 1 步：載入 vue.global.prod.js
 
 
 
