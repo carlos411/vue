@@ -1,8 +1,65 @@
 # 6 作業
 
-將原來 jQuery 的作業，複製一份，放到 **`assignment_vue`** 資料夾底下。
+## 前置
 
-然後在 vendors 資料夾底下，建立 vue 資料夾，裡面放入 **`vue.global.prod.js`** 檔案。
+將原來 jQuery 的作業，複製一份，放到 **`assignment_vue`** 資料夾底下。然後執行以下幾點：
+
+1. 在 assignment\_vue 資料夾下，建立 components 資料夾。
+2. 將 js/index.js 檔案，所有原始碼刪除。
+3. 在 vendors 資料夾底下，建立 vue 資料夾，裡面放入 **`vue.global.prod.js`** 檔案。
+4. 更新 index.html 及 js/index.js 原始碼如下。
+
+`index.html` 原始碼如下：
+
+{% code lineNumbers="true" %}
+```html
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <link rel="stylesheet" href="./css/index.css">
+  </head>
+  <body>
+
+    <article class="task_container" id="task_container">
+
+      <button type="button" class="btn_empty">清空</button>
+
+      <h1 class="title1">任務管理</h1>
+
+      <div class="task_add_block">
+        <input type="text" class="task_name" placeholder="輸入待辦事項…">
+        <button type="button" class="task_add">新增</button>
+      </div>
+
+      <div class="task_list_parent">
+
+        <ul class="task_list">
+        </ul>
+
+      </div>
+    </article>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+    <script src="./vendors/vue/vue.global.prod.js"></script>
+    <script src="./js/index.js" type="module"></script>
+  </body>
+</html>
+
+```
+{% endcode %}
+
+`js/index.js` 的原始碼如下：
+
+{% code lineNumbers="true" %}
+```javascript
+const app = Vue.createApp({});
+
+app.mount("#task_container");
+```
+{% endcode %}
 
 
 
