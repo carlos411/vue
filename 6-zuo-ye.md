@@ -57,7 +57,7 @@
 ```javascript
 const app = Vue.createApp({});
 
-app.mount("#task_container");
+const vm = app.mount("#task_container");
 ```
 {% endcode %}
 
