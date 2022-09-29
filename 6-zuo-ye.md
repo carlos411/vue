@@ -1,6 +1,10 @@
 # 6 作業
 
-將原來 jQuery 的作業，複製一份，
+將原來 jQuery 的作業，複製一份，放到 **`assignment_vue`** 資料夾底下。
+
+然後在 vendors 資料夾底下，建立 vue 資料夾，裡面放入 **`vue.global.prod.js`** 檔案。
+
+
 
 ## 第 1 步：載入 Vue
 
