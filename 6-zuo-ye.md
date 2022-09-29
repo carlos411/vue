@@ -95,6 +95,7 @@ const vm = app.mount("#task_container");
         <span class="star" data-star="5"><i class="fas fa-star"></i></span>
       </div>
       <p class="para">這是任務這是任務這是任務這是任務這是任務這是任務這是任務這是任務這是任務這是任務這是任務這是任務</p>
+      <input type="text" class="task_name_update -none" placeholder="更新待辦事項…">
     </div>
     <div class="right_block">
       <div class="btn_flex">
