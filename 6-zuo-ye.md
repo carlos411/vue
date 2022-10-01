@@ -7,7 +7,8 @@
 1. 在 assignment\_vue 資料夾下，建立 components 資料夾。
 2. 將 js/index.js 檔案，所有原始碼刪除。
 3. 在 vendors 資料夾底下，建立 vue 資料夾，裡面放入 **`vue.global.prod.js`** 檔案。
-4. 更新 index.html 及 js/index.js 原始碼如下。
+4. 在 vendors 資料夾底下的 jquery 資料夾，把 jquery 資料夾刪除。
+5. 更新 index.html 及 js/index.js 原始碼如下。
 
 `index.html` 原始碼如下：
 
