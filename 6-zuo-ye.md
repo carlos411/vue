@@ -169,5 +169,11 @@ const vm = app.mount("#task_container");
 
 
 
+## 繳交方式
 
+最晚繳交日期：**0/()** 晚上12點之前。
+
+先將 `assignment_座號` 資料夾壓成壓縮檔，然後透過以下網址繳交：
+
+[https://java.tibame.com/](https://java.tibame.com/)
 
