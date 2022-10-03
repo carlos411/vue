@@ -59,3 +59,32 @@ npm run preview
 npm install vue-router@4 --save
 ```
 
+
+
+## 第 4 步：設定指向到 src 資料夾
+
+更新 **`vite.config.js`** 檔案。
+
+設定別名 **`@`** 指向到 **`src`** 資料夾：
+
+新增第3行及第8行的 resolve：
+
+{% code lineNumbers="true" %}
+```javascript
+import { defineConfig } from 'vite'
+import vue from '@vitejs/plugin-vue'
+import path from 'path'
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [vue()],
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "./src")
+    }
+  }
+})
+
+```
+{% endcode %}
+
