@@ -113,13 +113,66 @@ export default defineConfig({
 
 ## 第 6 步：建立首頁
 
-建立首頁會用到的 **`components/Home.vue`** 元件檔。
+建立首頁會用到的 **`src/components/Home.vue`** 元件檔。
 
-以及 **`router/index.js`** 路由檔，及其它更新。
+以及 **`src/router/index.js`** 路由檔，及其它更新。
 
 內容如下：
 
+{% tabs %}
+{% tab title="src/router/index.js" %}
+<pre class="language-javascript" data-line-numbers><code class="lang-javascript">import { createRouter, createWebHistory } from "vue-router";
 
+const routes = [
+  {path: '/', name: 'Home', component: Home}
+];
+
+<strong>const router = createRouter({
+</strong>  history: createWebHistory(),
+  routes
+});
+
+export default router;</code></pre>
+{% endtab %}
+
+{% tab title="src/components/Home.vue" %}
+{% code lineNumbers="true" %}
+```javascript
+<script>
+  export default {
+    data(){
+      return {
+        msg: "Home"
+      };
+    }
+  }
+</script>
+
+<template>
+  <div class="block">
+    這是：{{ msg }}
+  </div>
+</template>
+
+<style scoped>
+</style>
+```
+{% endcode %}
+{% endtab %}
+
+{% tab title="src/main.js" %}
+{% code lineNumbers="true" %}
+```javascript
+import { createApp } from 'vue'
+//import './style.css'
+import App from './App.vue'
+import router from '@/router'
+
+createApp(App).use(router).mount('#app');
+```
+{% endcode %}
+{% endtab %}
+{% endtabs %}
 
 
 
