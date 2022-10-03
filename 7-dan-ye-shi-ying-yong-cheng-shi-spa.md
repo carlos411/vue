@@ -272,3 +272,28 @@ createApp(App).use(router).mount('#app');
 
 
 
+## 第 9 步：加上資料
+
+加上 **`src/data.json`**，內容如下：
+
+{% code lineNumbers="true" %}
+```json
+{
+  "destinations": [
+    {
+      "name": "臺北",
+      "id": 1,
+      "description":"臺北景點描述"
+    },
+    {
+      "name": "桃園",
+      "id": 2,
+      "description":"桃園景點描述"
+    }
+  ]
+}
+```
+{% endcode %}
+
+
+
