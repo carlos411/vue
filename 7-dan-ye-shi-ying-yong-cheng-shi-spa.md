@@ -454,3 +454,21 @@ header 標籤的部份，改成如下：
 
 
 
+## 第 13 步：build and preview
+
+產生 dist 資料夾：
+
+```
+npm run build
+```
+
+瀏覽 dist 資料夾：
+
+```
+npm run preview
+```
+
+如果未來要上線，要上線的會是 **`dist`** 資料夾。
+
+
+
