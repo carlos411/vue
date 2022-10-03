@@ -297,3 +297,42 @@ createApp(App).use(router).mount('#app');
 
 
 
+## 第 10 步：加上迴圈跑導覽列
+
+更新 **`src/App.vue`**，script 標籤的部份，內容如下：
+
+{% code lineNumbers="true" %}
+```javascript
+<script>
+  import sourceData from "@/data.json";
+
+  export default {
+    data(){
+      return {
+        destinations: sourceData.destinations
+      };
+    }
+  }
+</script>
+```
+{% endcode %}
+
+
+
+header 標籤的部份，改成如下：
+
+{% code lineNumbers="true" %}
+```html
+<header>
+  <router-link to="/">首頁</router-link> |
+  <router-link v-for="destination in destinations" :key="destination.id" :to="'/destination/'+destination.id">
+    {{ destination.name }}
+  </router-link>
+  <!-- <router-link to="/destination/1">臺北</router-link> | -->
+  <!-- <router-link to="/destination/2">桃園</router-link> -->
+</header>
+```
+{% endcode %}
+
+
+
