@@ -12,9 +12,15 @@ node -v
 
 ## 第 1 步：安裝 Vite
 
-執行指令：
+在特定資料夾下，執行指令：
 
 ```bash
 npm create vite@latest
 ```
+
+
+
+## 第 2 步：安裝 Vue Router
+
+
 
