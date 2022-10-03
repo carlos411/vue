@@ -207,12 +207,12 @@ createApp(App).use(router).mount('#app');
 {% tab title="src/router/index.js" %}
 {% code lineNumbers="true" %}
 ```javascript
-{path: '/destination/:id', name: 'destination', component: () => import('@/views/Destinations.vue')}
+{path: '/destination/:id', name: 'destination', component: () => import('@/views/Destination.vue')}
 ```
 {% endcode %}
 {% endtab %}
 
-{% tab title="src/views/Destinations.vue" %}
+{% tab title="src/views/Destination.vue" %}
 {% code lineNumbers="true" %}
 ```javascript
 <script>
