@@ -34,5 +34,5 @@
   * [5.6 動態元件](5-vue-yuan-jian/5.7-dong-tai-yuan-jian.md)
   * [5.7 Provide 和 Inject](5-vue-yuan-jian/5.7-provide-he-inject.md)
 * [6 作業](6-zuo-ye.md)
-* [7 簡介：單頁應用程式(SPA)](7-dan-ye-shi-ying-yong-cheng-shi-spa.md)
+* [7 補充：單頁應用程式(SPA)](7-bu-chong-dan-ye-ying-yong-cheng-shi-spa.md)
 * [8 參考資料](6-can-kao.md)
