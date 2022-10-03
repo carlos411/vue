@@ -1,4 +1,4 @@
-# 7 單頁式應用程式(SPA)
+# 7 簡介：單頁應用程式(SPA)
 
 SPA: Single Page Application
 
@@ -188,6 +188,47 @@ createApp(App).use(router).mount('#app');
   <router-view v-slot="{Component}">
     <component :is="Component" :key="$route.path"></component>
   </router-view>
+</template>
+
+<style scoped>
+</style>
+```
+{% endcode %}
+{% endtab %}
+{% endtabs %}
+
+
+
+## 第 7 步：建立第二個頁面
+
+更新以下程式：
+
+{% tabs %}
+{% tab title="src/router/index.js" %}
+{% code lineNumbers="true" %}
+```javascript
+{path: '/destination/:id', name: 'destination', component: () => import('@/views/Destinations.vue')}
+```
+{% endcode %}
+{% endtab %}
+
+{% tab title="src/views/Destinations.vue" %}
+{% code lineNumbers="true" %}
+```javascript
+<script>
+  export default {
+    data(){
+      return {
+        name: "臺北"
+      };
+    }
+  }
+</script>
+
+<template>
+  <div>
+    目的地：{{ name }}
+  </div>
 </template>
 
 <style scoped>
