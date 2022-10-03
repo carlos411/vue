@@ -111,3 +111,7 @@ export default defineConfig({
 
 
 
+## 第 6 步：建立 Home.vue 檔
+
+建立首頁會用的 **`Home.vue`** 元件檔
+
