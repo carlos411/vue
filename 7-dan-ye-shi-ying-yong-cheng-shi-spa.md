@@ -205,6 +205,8 @@ createApp(App).use(router).mount('#app');
 
 {% tabs %}
 {% tab title="src/router/index.js" %}
+在 routes 陣列當中，多加一個：
+
 {% code lineNumbers="true" %}
 ```javascript
 {path: '/destination/:id', name: 'destination', component: () => import('@/views/Destination.vue')}
