@@ -381,3 +381,33 @@ header 標籤的部份，改成如下：
 
 
 
+## 第 12 步：建立導覽列元件
+
+建立 **`src/components/TheNavigation.vue`** 檔案，內容如下：
+
+{% code lineNumbers="true" %}
+```javascript
+<script>
+  import sourceData from "@/data.json";
+  export default {
+    data(){
+      return {
+        destinations: sourceData.destinations
+      };
+    }
+  }
+</script>
+
+<template>
+  <router-link v-for="destination in destinations" :key="destination.id" :to="'/destination/'+destination.id">
+    {{ destination.name }}
+  </router-link>
+</template>
+
+<style scoped>
+</style>
+```
+{% endcode %}
+
+
+
