@@ -113,7 +113,7 @@ export default defineConfig({
 
 ## 第 6 步：建立首頁
 
-建立首頁會用到的 **`src/components/Home.vue`** 元件檔。
+建立首頁會用到的 **`src/views/Home.vue`** 元件檔。
 
 以及 **`src/router/index.js`** 路由檔，及其它更新。
 
@@ -135,7 +135,7 @@ const routes = [
 export default router;</code></pre>
 {% endtab %}
 
-{% tab title="src/components/Home.vue" %}
+{% tab title="src/views/Home.vue" %}
 {% code lineNumbers="true" %}
 ```javascript
 <script>
