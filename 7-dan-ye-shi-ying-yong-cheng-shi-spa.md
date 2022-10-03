@@ -88,3 +88,11 @@ export default defineConfig({
 ```
 {% endcode %}
 
+
+
+## 第 5 步：認識 vue 檔
+
+將 style.css 檔的內容全部移除。
+
+
+
