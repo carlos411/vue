@@ -22,6 +22,18 @@ npm create vite@latest
 
 
 
+```
+Project name: travel-app
+Select a framework: Vue
+Select a variant: JavaScript
+
+cd travel-app
+npm install
+npm run dev
+```
+
+
+
 ## 第 2 步：安裝 Vue Router
 
 ```bash
