@@ -111,7 +111,15 @@ export default defineConfig({
 
 
 
-## 第 6 步：建立 Home.vue 檔
+## 第 6 步：建立首頁
 
-建立首頁會用的 **`Home.vue`** 元件檔
+建立首頁會用到的 **`components/Home.vue`** 元件檔。
+
+以及 **`router/index.js`** 路由檔，及其它更新。
+
+內容如下：
+
+
+
+
 
