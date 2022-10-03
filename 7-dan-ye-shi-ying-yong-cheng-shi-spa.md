@@ -336,3 +336,48 @@ header 標籤的部份，改成如下：
 
 
 
+## 第 11 步：景點頁面修改
+
+修改 **`views/destination.vue`** 頁面：
+
+{% code lineNumbers="true" %}
+```javascript
+<script>
+  import sourceData from "@/data.json";
+
+  export default {
+    data(){
+      return {
+        //name: "臺北"
+      };
+    },
+    computed: {
+      // destination(){
+      //   var d = sourceData.destinations.find((destination) => {
+      //     return destination.id == parseInt(this.$route.params.id)
+      //   });
+      //   return d;
+      // },
+      destination(){
+        return sourceData.destinations.find(destination => destination.id == parseInt(this.$route.params.id));
+      }
+    }
+  }
+</script>
+
+<template>
+  <div>
+    目的地：{{ destination.name }}
+    <br>
+    {{ destination.description }}
+
+  </div>
+</template>
+
+<style scoped>
+</style>
+```
+{% endcode %}
+
+
+
