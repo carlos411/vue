@@ -411,3 +411,50 @@ header 標籤的部份，改成如下：
 
 
 
+更新 **`src/App.vue`**，內容如下：
+
+{% code lineNumbers="true" %}
+```javascript
+<script>
+  //import sourceData from "@/data.json";
+  import TheNavigation from "@/components/TheNavigation.vue";
+
+  export default {
+    components: {TheNavigation},
+    data(){
+      return {
+        //destinations: sourceData.destinations
+      };
+    }
+  }
+</script>
+
+<template>
+  <header>
+    <router-link to="/">首頁</router-link> |
+    <TheNavigation></TheNavigation>
+    <!-- <router-link v-for="destination in destinations" :key="destination.id" :to="'/destination/'+destination.id">
+      {{ destination.name }}
+    </router-link> -->
+    <!-- <router-link to="/destination/1">臺北</router-link> | -->
+    <!-- <router-link to="/destination/2">桃園</router-link> -->
+  </header>
+
+  <!-- <header>
+    <a href="/">首頁</a> |
+    <a href="/destination/1">臺北</a> |
+    <a href="/destination/2">桃園</a>
+  </header> -->
+
+  <router-view v-slot="{Component}">
+    <component :is="Component" :key="$route.path"></component>
+  </router-view>
+</template>
+
+<style scoped>
+</style>
+```
+{% endcode %}
+
+
+
