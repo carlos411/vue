@@ -172,6 +172,29 @@ createApp(App).use(router).mount('#app');
 ```
 {% endcode %}
 {% endtab %}
+
+{% tab title="Untitled" %}
+{% code lineNumbers="true" %}
+```javascript
+<script>
+  export default {
+    data(){
+      return {};
+    }
+  }
+</script>
+
+<template>
+  <router-view v-slot="{Component}">
+    <component :is="Component" :key="$route.path"></component>
+  </router-view>
+</template>
+
+<style scoped>
+</style>
+```
+{% endcode %}
+{% endtab %}
 {% endtabs %}
 
 
