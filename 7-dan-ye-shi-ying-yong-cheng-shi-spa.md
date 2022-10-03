@@ -92,7 +92,22 @@ export default defineConfig({
 
 ## 第 5 步：認識 vue 檔
 
-將 style.css 檔的內容全部移除。
+將 **`style.css`** 檔的內容全部移除。
+
+將 **`App.vue`** 檔，更新成如下：
+
+{% code lineNumbers="true" %}
+```javascript
+<script>
+</script>
+
+<template>
+</template>
+
+<style scoped>
+</style>
+```
+{% endcode %}
 
 
 
