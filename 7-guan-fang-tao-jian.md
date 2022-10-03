@@ -24,5 +24,7 @@ npm create vite@latest
 
 ## 第 2 步：安裝 Vue Router
 
-
+```bash
+npm install vue-router@4 --save
+```
 
