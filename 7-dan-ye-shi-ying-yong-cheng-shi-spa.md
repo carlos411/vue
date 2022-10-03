@@ -242,3 +242,33 @@ createApp(App).use(router).mount('#app');
 
 
 
+
+
+## 第 8 步：加上導覽列
+
+更新 **`src/App.vue`**，在 template 標籤當中，加以下的原始碼：
+
+{% code lineNumbers="true" %}
+```html
+<header>
+  <a href="/">首頁</a> |
+  <a href="/destination/1">臺北</a> |
+  <a href="/destination/2">桃園</a>
+</header>
+```
+{% endcode %}
+
+然後測一下(觀察開發者工具的 network)，測完之後，改成用以下：
+
+{% code lineNumbers="true" %}
+```html
+<header>
+  <router-link to="/">首頁</router-link> |
+  <router-link to="/destination/1">臺北</router-link> |
+  <router-link to="/destination/2">桃園</router-link>
+</header>
+```
+{% endcode %}
+
+
+
