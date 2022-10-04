@@ -473,6 +473,60 @@ npm run preview
 
 
 
+## 第 14 步：建立另一個網頁檔
+
+在 **`spa-app`** 資料夾下，建立 **`index2.html`**，內容如下：
+
+{% code lineNumbers="true" %}
+```html
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>另一個頁面</h1>
+  </body>
+</html>
+```
+{% endcode %}
+
+更新 **`vite.config.js`**，內容如下(多 **`build`** 那個部份)：
+
+{% code lineNumbers="true" %}
+```javascript
+import { defineConfig } from 'vite'
+import vue from '@vitejs/plugin-vue'
+import path from 'path'
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [vue()],
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "./src")
+    }
+  },
+  build: {
+    rollupOptions: {
+      input: {
+        main: path.resolve(__dirname, 'index.html'),
+        other: path.resolve(__dirname, 'index2.html')
+      }
+    }
+  }
+})
+```
+{% endcode %}
+
+若需要 build 的話，就再執行：
+
+```
+npm run build
+npm run preview
+```
+
 
 
 ## 參考資料
