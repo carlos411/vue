@@ -529,7 +529,21 @@ npm run preview
 
 
 
+## 完成的範例
+
+[https://alldata.sgp1.digitaloceanspaces.com/sample/spa-app.zip](https://alldata.sgp1.digitaloceanspaces.com/sample/spa-app.zip)
+
+需記得在 **`spa-app`** 資料夾下，執行以下指令來安裝相關套件(即產生 `node_modules` 資料夾)：
+
+```bash
+npm install
+```
+
+
+
 ## 參考資料
 
 免費線上課程：[https://vueschool.io/courses/vue-router-4-for-everyone](https://vueschool.io/courses/vue-router-4-for-everyone)
+
+
 
