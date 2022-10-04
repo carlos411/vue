@@ -1,15 +1,16 @@
-# 7 簡介：單頁應用程式(SPA)
+# 7 補充：單頁應用程式(SPA)
 
 SPA: Single Page Application
 
-在專案開始前，就需要先決定是否要導入此架構，而不是網站做到一半才導入。靠兩個工具：
+在專案開始前，就需要先決定是否要導入此架構，而不是網站做到一半才導入。做 SPA 主要需要靠兩個工具：
 
 * [Vite](https://vitejs.dev/)
+* Vue
 * [Vue Router](https://router.vuejs.org/)
 
 
 
-註：安裝 vite 之前，需安裝 Node.js 14.18 以上的版本。可執行以下指令查看 Node.js 的版本：
+註：安裝 Vite 之前，需安裝 [Node.js](https://nodejs.org/en/) 14.18 以上的版本。可執行以下指令查看 Node.js 的版本：
 
 ```bash
 node -v
