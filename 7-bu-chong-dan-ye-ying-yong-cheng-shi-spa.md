@@ -2,10 +2,10 @@
 
 SPA: Single Page Application
 
-在專案開始前，就需要先決定是否要導入此架構，而不是網站做到一半才導入。做 SPA 主要需要靠兩個工具：
+在專案開始前，就需要先決定是否要導入此架構，而不是網站做到一半才導入。做 SPA 主要需要三個工具：
 
 * [Vite](https://vitejs.dev/)
-* Vue
+* [Vue](https://vuejs.org/)
 * [Vue Router](https://router.vuejs.org/)
 
 
