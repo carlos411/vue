@@ -35,5 +35,5 @@
   * [5.7 Provide 和 Inject](5-vue-yuan-jian/5.7-provide-he-inject.md)
 * [6 作業](6-zuo-ye.md)
 * [7 認識 Vue Plugin 寫法](7-ren-shi-vue-plugin-xie-fa.md)
-* [7 認識單頁應用程式(SPA)](7-bu-chong-dan-ye-ying-yong-cheng-shi-spa.md)
-* [8 參考資料](6-can-kao.md)
+* [8 認識單頁應用程式(SPA)](8-ren-shi-dan-ye-ying-yong-cheng-shi-spa.md)
+* [9 參考資料](9-can-kao-zi-liao.md)
