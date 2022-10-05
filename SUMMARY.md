@@ -33,6 +33,7 @@
   * [5.5 slots 機制](5-vue-yuan-jian/5.5-slots-ji-zhi.md)
   * [5.6 動態元件](5-vue-yuan-jian/5.7-dong-tai-yuan-jian.md)
   * [5.7 Provide 和 Inject](5-vue-yuan-jian/5.7-provide-he-inject.md)
+* [6 實作](6-shi-zuo.md)
 * [6 作業：待辦事項](6-zuo-ye-dai-ban-shi-xiang.md)
 * [7 認識 Vue Plugin 寫法](7-ren-shi-vue-plugin-xie-fa.md)
 * [8 認識單頁應用程式(SPA)](7-bu-chong-dan-ye-ying-yong-cheng-shi-spa.md)
