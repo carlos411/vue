@@ -1,4 +1,4 @@
-# 8 補充：單頁應用程式(SPA)
+# 7 認識單頁應用程式(SPA)
 
 SPA: Single Page Application
 
@@ -18,7 +18,7 @@ node -v
 
 ## 第 1 步：安裝 Vite
 
-在特定資料夾下，執行指令：
+在 **`vue`** 資料夾下，執行指令：
 
 ```bash
 npm create vite@latest
@@ -27,11 +27,11 @@ npm create vite@latest
 
 
 ```
-Project name: travel-app
+Project name: spa-app
 Select a framework: Vue
 Select a variant: JavaScript
 
-cd travel-app
+cd spa-app
 npm install
 npm run dev
 ```
