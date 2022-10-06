@@ -28,5 +28,5 @@
 
 
 
-在 `practice` 資料夾下，建立 `component6_tab.html` 檔案，將上方 CodePen 的範例，放到頁面當中，也要能夠正常運作。
+在 `practice` 資料夾下，建立 `ex3_tab.html` 檔案，將上方 CodePen 的範例，放到頁面當中，也要能夠正常運作。
 
