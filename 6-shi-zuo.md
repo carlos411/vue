@@ -1,8 +1,6 @@
 # 6 實作
 
-## 練習 1：全選 checkbox
-
-## 練習：checkbox 全選
+## 練習 1：checkbox 全選
 
 給定以下 html：
 
