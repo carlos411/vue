@@ -105,6 +105,9 @@
         <li><a href="#">&gt;</a></li>
       </ul>
     </div>
+    
+    <script src="./vendors/vue/vue.global.js"></script>
+    <!-- <script src="./vendors/vue/vue.global.prod.js"></script> -->
   </body>
 </html>
 ```
@@ -129,7 +132,15 @@
 ```
 {% endcode %}
 
-請撰寫 **`./components/ThePaginator.js`** 。
+請練習撰寫 **`./components/ThePaginator.js`** 。
+
+
+
+參考作法如下 codepen：
+
+{% embed url="https://codepen.io/carlos411/pen/LYmBoYj" %}
+
+
 
 
 
