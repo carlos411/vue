@@ -2,7 +2,7 @@
 
 ## 練習 1：checkbox 全選
 
-給定以下 html：
+在 `practice` 資料夾下，建立 `ex1_checkbox.html` 檔案，給定以下 html：
 
 {% code lineNumbers="true" %}
 ```html
