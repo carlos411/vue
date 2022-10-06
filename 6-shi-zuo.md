@@ -1,4 +1,4 @@
-# 6 實作
+# 6 介面實作
 
 ## 練習 1：checkbox 全選
 
@@ -19,6 +19,8 @@
 {% endcode %}
 
 
+
+參考作法：
 
 {% embed url="https://codepen.io/carlos411/pen/rNvaVJK" %}
 

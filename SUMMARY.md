@@ -32,7 +32,7 @@
   * [5.4 Fallthrough Attributes](5-vue-yuan-jian/5.4-fallthrough-attributes.md)
   * [5.5 slots 機制](5-vue-yuan-jian/5.5-slots-ji-zhi.md)
   * [5.6 Provide 和 Inject](5-vue-yuan-jian/5.6-provide-he-inject.md)
-* [6 介面實作](6-jie-mian-shi-zuo.md)
+* [6 介面實作](6-shi-zuo.md)
 * [7 作業：待辦事項](7-zuo-ye-dai-ban-shi-xiang.md)
 * [8 認識 Vue Plugin 寫法](8-ren-shi-vue-plugin-xie-fa.md)
 * [9 認識單頁應用程式(SPA)](9-ren-shi-dan-ye-ying-yong-cheng-shi-spa.md)
