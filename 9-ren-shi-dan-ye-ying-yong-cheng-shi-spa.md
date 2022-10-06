@@ -1,4 +1,4 @@
-# 8 認識單頁應用程式(SPA)
+# 9 認識單頁應用程式(SPA)
 
 SPA: Single Page Application
 
@@ -229,7 +229,7 @@ createApp(App).use(router).mount('#app');
 </script>
 
 <template>
-  <div>
+  <div class="block">
     目的地：{{ name }}
   </div>
 </template>
@@ -367,7 +367,7 @@ header 標籤的部份，改成如下：
 </script>
 
 <template>
-  <div>
+  <div class="block">
     目的地：{{ destination.name }}
     <br>
     {{ destination.description }}
