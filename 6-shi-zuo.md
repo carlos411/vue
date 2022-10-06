@@ -142,6 +142,22 @@
 
 
 
+該 ThePaginator 元件，可帶入三個參數：
+
+* `total-items`：總共有幾筆資料。
+* `items-per-page`：每頁顯示幾筆資料。
+* `current-page`：目前在第幾頁。
+
+
+
+故使用 ThePaginator 元件，如下原始碼：
+
+{% code lineNumbers="true" %}
+```html
+<the-paginator total-items="99" items-per-page="10" current-page="2"></the-paginator>
+```
+{% endcode %}
+
 
 
 ## 練習 3：頁籤
