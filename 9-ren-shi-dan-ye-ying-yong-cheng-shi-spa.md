@@ -455,7 +455,46 @@ header 標籤的部份，改成如下：
 
 
 
-## 第 13 步：build and preview
+## 第 13 步：載入外部 CSS
+
+建立 **`public/main.css`** 檔案：
+
+{% code lineNumbers="true" %}
+```css
+* {
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+#app header{
+  background-color: #2c3e50;
+}
+
+#app header a{
+  color: white;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#app div.block{
+  background-color: #ddd;
+  min-height: calc(100vh - 24px);
+}
+```
+{% endcode %}
+
+在 **`index.html`** 檔的 head 結束標籤之前，放以下原始碼：
+
+{% code lineNumbers="true" %}
+```html
+<link rel="stylesheet" href="/main.css">
+```
+{% endcode %}
+
+
+
+## 第 14 步：build and preview
 
 產生 dist 資料夾：
 
@@ -473,7 +512,7 @@ npm run preview
 
 
 
-## 第 14 步：建立另一個網頁檔
+## 第 15 步：建立另一個網頁檔
 
 在 **`spa-app`** 資料夾下，建立 **`index2.html`**，內容如下：
 
