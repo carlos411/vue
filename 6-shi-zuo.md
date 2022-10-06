@@ -2,6 +2,30 @@
 
 ## 練習 1：全選 checkbox
 
+## 練習：checkbox 全選
+
+給定以下 html：
+
+{% code lineNumbers="true" %}
+```html
+<div id="check_block">
+  <input type="checkbox" id="check_all" ref="my_check_all" @click="check_all_items"><label for="check_all">全選</label>
+
+  <hr>
+
+  <input type="checkbox" class="item" id="option1" @click="item_click"> <label for="option1">選項一</label>
+  <input type="checkbox" class="item" id="option2" @click="item_click"> <label for="option2">選項二</label>
+  <input type="checkbox" class="item" id="option3" @click="item_click"> <label for="option3">選項三</label>
+</div>
+```
+{% endcode %}
+
+
+
+{% embed url="https://codepen.io/carlos411/pen/rNvaVJK" %}
+
+
+
 
 
 ## 練習 2：分頁器
