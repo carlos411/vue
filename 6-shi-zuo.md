@@ -30,6 +30,155 @@
 
 ## 練習 2：分頁器
 
+在 `practice` 資料夾下，建立 `ex2_paginator.html` 檔案，內容如下：
+
+{% code lineNumbers="true" %}
+```html
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      div.pagination_block{
+        display: inline-block;
+      }
+      div.pagination_block > ul.pagination{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        font-size: 0;
+      }
+      div.pagination_block > ul.pagination > li{
+        display: inline-block;
+      }
+      div.pagination_block > ul.pagination > li > a{
+        display: inline-block;
+        text-decoration: none;
+
+        border: 1px solid #dee2e6; /* 留意 */
+        border-right: 0;           /* 留意：將全部的右邊框都移除 */
+
+        text-align: center;
+        padding: 5px 10px;
+        font-size: 1rem;
+        color: #007bff;
+      }
+
+      /* 留意: 將最後一個 li 裡的 a，右邊框加回來 */
+      /* 留意: 將最後一個 li 裡的 a，加上圓角 */
+      div.pagination_block > ul.pagination > li:last-child > a{
+        border-right: 1px solid #dee2e6;
+        border-radius: 0 5px 5px 0;
+      }
+      /* 留意: 將第一個 li 裡的 a，加上圓角 */
+      div.pagination_block > ul.pagination > li:first-child > a{
+        display: inline-block;
+        border-radius: 5px 0 0 5px;
+      }
+
+      div.pagination_block > ul.pagination > li > a.-on{
+        background-color: #e9ecef;
+        color: #0056b3;
+      }
+
+      div.pagination_block > ul.pagination > li > a:hover{
+        background-color: #e9ecef;
+        color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="pagination_block" id="pagination_block">
+      <ul class="pagination">
+        <li><a href="#">&lt;</a></li>
+        <li><a href="#" class="-on">1</a></li>
+        <li><a href="#" >2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+        <li><a href="#">6</a></li>
+        <li><a href="#">7</a></li>
+        <li><a href="#">8</a></li>
+        <li><a href="#">9</a></li>
+        <li><a href="#">10</a></li>
+        <li><a href="#">&gt;</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
+```
+{% endcode %}
+
+請建立 **`the-paginator`** 標籤(即 ThePaginator 元件)，結果要與上述程式碼相同，如下：
+
+{% code lineNumbers="true" %}
+```html
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      div.pagination_block{
+        display: inline-block;
+      }
+      div.pagination_block > ul.pagination{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        font-size: 0;
+      }
+      div.pagination_block > ul.pagination > li{
+        display: inline-block;
+      }
+      div.pagination_block > ul.pagination > li > a{
+        display: inline-block;
+        text-decoration: none;
+
+        border: 1px solid #dee2e6; /* 留意 */
+        border-right: 0;           /* 留意：將全部的右邊框都移除 */
+
+        text-align: center;
+        padding: 5px 10px;
+        font-size: 1rem;
+        color: #007bff;
+      }
+
+      /* 留意: 將最後一個 li 裡的 a，右邊框加回來 */
+      /* 留意: 將最後一個 li 裡的 a，加上圓角 */
+      div.pagination_block > ul.pagination > li:last-child > a{
+        border-right: 1px solid #dee2e6;
+        border-radius: 0 5px 5px 0;
+      }
+      /* 留意: 將第一個 li 裡的 a，加上圓角 */
+      div.pagination_block > ul.pagination > li:first-child > a{
+        display: inline-block;
+        border-radius: 5px 0 0 5px;
+      }
+
+      div.pagination_block > ul.pagination > li > a.-on{
+        background-color: #e9ecef;
+        color: #0056b3;
+      }
+
+      div.pagination_block > ul.pagination > li > a:hover{
+        background-color: #e9ecef;
+        color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <the-paginator></the-paginator>
+
+    
+  </body>
+</html>
+```
+{% endcode %}
+
+
+
 
 
 ## 練習 3：頁籤
