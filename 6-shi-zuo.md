@@ -158,6 +158,14 @@
 ```
 {% endcode %}
 
+那 **`./components/ThePaginator.js`**  應如何改寫？
+
+
+
+參考作法：
+
+{% embed url="https://codepen.io/carlos411/pen/OJZwYXd" %}
+
 
 
 ## 練習 3：頁籤
