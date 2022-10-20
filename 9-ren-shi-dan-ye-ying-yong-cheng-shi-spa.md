@@ -142,7 +142,8 @@ export default defineConfig({
 <pre class="language-javascript" data-line-numbers><code class="lang-javascript">import { createRouter, createWebHistory } from "vue-router";
 
 const routes = [
-  {path: '/', name: 'Home', component: Home}
+  // 網址定義：/；給定名稱 Home；載入 Home.vue 元件
+  {path: '/', name: 'Home', component: () => import('@/views/Home.vue')}
 ];
 
 <strong>const router = createRouter({
