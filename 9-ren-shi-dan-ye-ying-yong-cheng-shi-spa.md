@@ -10,11 +10,14 @@ SPA: Single Page Application
 
 
 
-註：安裝 Vite 之前，需安裝 [Node.js](https://nodejs.org/en/) 14.18 以上的版本。可執行以下指令查看 Node.js 的版本：
+註：安裝 Vite 之前，需先安裝 [Node.js](https://nodejs.org/en/) 14.18 以上的版本。可執行以下指令(**`node -v`**)查看 Node.js 目前您電腦所使用的版本(以下的 **`$`** 代表是指令的意思，所以請勿輸入錢字號)：
 
 ```bash
-node -v
+$ node -v
+v16.18.0
 ```
+
+
 
 ## 第 1 步：安裝 Vite
 
