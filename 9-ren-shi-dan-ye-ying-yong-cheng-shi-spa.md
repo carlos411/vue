@@ -357,7 +357,7 @@ header 標籤的部份，改成如下：
 
 ## 第 11 步：景點頁面修改
 
-修改 **`views/destination.vue`** 頁面：
+修改 **`views/Destination.vue`** 頁面：
 
 {% code lineNumbers="true" %}
 ```javascript
