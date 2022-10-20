@@ -17,6 +17,10 @@ $ node -v
 v16.18.0
 ```
 
+若 Node.js 未安裝，如下圖下載安裝：
+
+<figure><img src=".gitbook/assets/nodejs_install.png" alt=""><figcaption></figcaption></figure>
+
 
 
 ## 第 1 步：安裝 Vite
