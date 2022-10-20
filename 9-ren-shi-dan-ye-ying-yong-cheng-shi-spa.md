@@ -47,6 +47,10 @@ npm install
 npm run dev
 ```
 
+看到如下圖：
+
+<figure><img src=".gitbook/assets/vite_npm_run_dev.png" alt=""><figcaption></figcaption></figure>
+
 
 
 ## 第 2 步：認識資料夾及 build 和 preview
