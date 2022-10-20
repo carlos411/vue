@@ -191,7 +191,7 @@ createApp(App).use(router).mount('#app');
 {% endcode %}
 {% endtab %}
 
-{% tab title="Untitled" %}
+{% tab title="src/App.vue" %}
 {% code lineNumbers="true" %}
 ```javascript
 <script>
