@@ -37,7 +37,11 @@ npm create vite@latest
 Project name: spa-app
 Select a framework: Vue
 Select a variant: JavaScript
+```
 
+再執行以下指令：
+
+```
 cd spa-app
 npm install
 npm run dev
