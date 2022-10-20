@@ -125,6 +125,8 @@ export default defineConfig({
 ```
 {% endcode %}
 
+將 components 資料夾裡的 **`HelloWorld.vue`** 檔案移除。
+
 
 
 ## 第 6 步：建立首頁
