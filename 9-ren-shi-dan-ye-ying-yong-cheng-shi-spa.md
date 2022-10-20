@@ -55,13 +55,13 @@ npm run dev
 
 ## 第 2 步：認識資料夾及 build 和 preview
 
-打包產生 dist 資料夾：
+打包產生 **`dist`** 資料夾：
 
 ```bash
 npm run build
 ```
 
-瀏覽 dist 資料夾：
+瀏覽 **`dist`** 資料夾：
 
 ```
 npm run preview
