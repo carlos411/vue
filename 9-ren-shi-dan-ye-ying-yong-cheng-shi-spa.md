@@ -72,7 +72,7 @@ npm run preview
 ## 第 3 步：安裝 Vue Router
 
 ```bash
-npm install vue-router@4 --save
+npm install vue-router@4
 ```
 
 
