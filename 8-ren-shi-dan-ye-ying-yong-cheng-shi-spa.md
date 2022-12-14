@@ -611,6 +611,10 @@ npm run preview
 ```
 {% endcode %}
 
+如果使用 **`npm run build`** 指令的話，是不會有 `index2.html` 檔案的，要再加以下的設定才會有。
+
+
+
 更新 **`vite.config.js`**，內容如下(多 **`build`** 那個部份)：
 
 {% code lineNumbers="true" %}
