@@ -187,6 +187,11 @@ export default defineConfig({
 
 ## 第 6 步：建立首頁
 
+* 建立 **`src/views/`** 資料夾：「`每個頁面(view)`」都會對應到一個「`vue 元件檔`」。
+* 建立 **`src/router/`** 資料夾：用來管理`網址(路由)`。
+
+
+
 建立首頁會用到的 **`src/views/Home.vue`** 元件檔。
 
 以及 **`src/router/index.js`** 路由檔，及其它更新。
