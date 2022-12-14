@@ -652,6 +652,22 @@ npm run preview
 
 
 
+## 第 16 步：放 YouTube 影片來認識 SPA
+
+更新 **`src/App.vue`** 檔案，在 **`router-view`** 標籤同層的下方，加以下的原始碼：
+
+{% code lineNumbers="true" %}
+```html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/STWVMl_cGuc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+```
+{% endcode %}
+
+
+
+然後可再試試 **`router-link`** 與一般 **`a`** 標籤的差別。
+
+
+
 ## 完成的範例
 
 [https://alldata.sgp1.digitaloceanspaces.com/sample/spa-app.zip](https://alldata.sgp1.digitaloceanspaces.com/sample/spa-app.zip)
