@@ -168,13 +168,14 @@ export default defineConfig({
 將 **`App.vue`** 檔，更新成如下：
 
 {% code lineNumbers="true" %}
-```javascript
+```html
 <script>
 </script>
 
 <template>
 </template>
 
+<!-- 這裡的 scoped 屬性，是讓所寫的 CSS，「只」會套用到此元件的 template。 -->
 <style scoped>
 </style>
 ```
