@@ -89,17 +89,23 @@ export default {
 
 ## 第 2 步：認識資料夾及 build 和 preview
 
-打包產生 **`dist`** 資料夾：
+打包產生 **`dist`** 資料夾(如果最後要上線，要上線的是 dist 資料夾裡的東西)：
 
 ```bash
 npm run build
 ```
+
+
 
 瀏覽 **`dist`** 資料夾：
 
 ```
 npm run preview
 ```
+
+出現如下圖：
+
+<figure><img src=".gitbook/assets/npm_run_preview.png" alt=""><figcaption></figcaption></figure>
 
 
 
