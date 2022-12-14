@@ -10,7 +10,7 @@ SPA: Single Page Application
 
 
 
-註：安裝 Vite 之前，官方有以下的敘述：
+註：安裝 Vite 之前，官方有[以下的敘述](https://vitejs.dev/guide/#scaffolding-your-first-vite-project)：
 
 <figure><img src=".gitbook/assets/vite_nodejs_support.png" alt=""><figcaption></figcaption></figure>
 
