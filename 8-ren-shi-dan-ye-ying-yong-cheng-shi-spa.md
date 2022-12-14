@@ -57,6 +57,36 @@ npm run dev
 
 
 
+將 **`components/HelloWorld.vue`** 檔的 script 標籤都註解起來，改成以下：
+
+{% code lineNumbers="true" %}
+```html
+<!--
+<script setup>
+import { ref } from 'vue'
+
+defineProps({
+  msg: String,
+})
+
+const count = ref(0)
+</script>
+-->
+<script>
+export default {
+  props: ["msg"],
+  data(){
+    return {
+      count: 0
+    }
+  }
+}
+</script>
+```
+{% endcode %}
+
+
+
 ## 第 2 步：認識資料夾及 build 和 preview
 
 打包產生 **`dist`** 資料夾：
