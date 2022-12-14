@@ -1,4 +1,4 @@
-# 8.2 認識單頁應用程式(SPA)
+# 8 認識單頁應用程式(SPA)
 
 SPA: Single Page Application
 
@@ -10,7 +10,11 @@ SPA: Single Page Application
 
 
 
-註：安裝 Vite 之前，需先安裝 [Node.js](https://nodejs.org/en/) 14.18 以上的版本。可執行以下指令(**`node -v`**)查看 Node.js 目前您電腦所使用的版本(以下的 **`$`** 代表是指令的意思，所以請勿輸入錢字號)：
+註：安裝 Vite 之前，官方有以下的敘述：
+
+<figure><img src=".gitbook/assets/vite_nodejs_support.png" alt=""><figcaption></figcaption></figure>
+
+也就是需先安裝 [Node.js](https://nodejs.org/en/) 14.18 以上的版本。可執行以下指令(**`node -v`**)查看 Node.js 目前您電腦所使用的版本(以下的 **`$`** 代表是指令的意思，所以請勿輸入錢字號)：
 
 ```bash
 $ node -v
@@ -19,7 +23,7 @@ v16.18.0
 
 若 Node.js 未安裝，如下圖下載安裝：
 
-<figure><img src="../.gitbook/assets/nodejs_install.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/nodejs_install.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -49,7 +53,7 @@ npm run dev
 
 看到如下圖：
 
-<figure><img src="../.gitbook/assets/vite_npm_run_dev.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/vite_npm_run_dev.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -151,7 +155,8 @@ const routes = [
   routes
 });
 
-export default router;</code></pre>
+export default router;
+</code></pre>
 {% endtab %}
 
 {% tab title="src/views/Home.vue" %}
