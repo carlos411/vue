@@ -152,9 +152,12 @@ export default defineConfig({
     }
   }
 })
-
 ```
 {% endcode %}
+
+關於 `vite.config.js` 的相關設定，可參考官方：[https://vitejs.dev/config/](https://vitejs.dev/config/)
+
+針對 `resolve.alias` 的部份，可參考：[https://vitejs.dev/config/shared-options.html#resolve-alias](https://vitejs.dev/config/shared-options.html#resolve-alias)
 
 
 
