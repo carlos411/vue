@@ -129,7 +129,7 @@ npm install vue-router@4
 
 
 
-## 第 4 步：設定指向到 src 資料夾
+## 第 4 步：設定 `@` 指向到 src 資料夾
 
 更新 **`vite.config.js`** 檔案。
 
