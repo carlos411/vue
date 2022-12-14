@@ -180,7 +180,7 @@ export default defineConfig({
 ```
 {% endcode %}
 
-將 components 資料夾裡的 **`HelloWorld.vue`** 檔案移除。
+將 components 資料夾裡的 **`HelloWorld.vue`** 檔案移除。(若想保留當參考，可不用移除。)
 
 
 
