@@ -559,7 +559,7 @@ body{
 
 #app div.block{
   background-color: #ddd;
-  min-height: 200px;
+  height: 200px;
 }
 ```
 {% endcode %}
