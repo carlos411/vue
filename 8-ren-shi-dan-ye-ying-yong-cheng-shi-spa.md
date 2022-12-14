@@ -115,6 +115,18 @@ npm run preview
 npm install vue-router@4
 ```
 
+此時，在 **`package.json`** 檔，會多了以下 **`vue-router`** 的部份：
+
+{% code lineNumbers="true" %}
+```javascript
+"dependencies": {
+    ...
+    "vue-router": "^4.1.6"
+    
+  },
+```
+{% endcode %}
+
 
 
 ## 第 4 步：設定指向到 src 資料夾
