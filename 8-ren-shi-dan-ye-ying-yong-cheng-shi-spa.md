@@ -29,7 +29,7 @@ v18.12.1
 
 ## 第 1 步：安裝 Vite
 
-在 **`vue`** 資料夾下，執行指令：
+假設在電腦桌面建立 vite 資料夾，就在 vite 資料夾下，執行以下指令：
 
 ```bash
 npm create vite@latest
