@@ -18,12 +18,12 @@ SPA: Single Page Application
 
 ```bash
 $ node -v
-v16.18.0
+v18.12.1
 ```
 
 若 Node.js 未安裝，如下圖下載安裝：
 
-<figure><img src=".gitbook/assets/nodejs_install.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/nodejs_install_hint.png" alt=""><figcaption></figcaption></figure>
 
 
 
