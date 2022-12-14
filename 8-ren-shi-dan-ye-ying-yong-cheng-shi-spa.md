@@ -194,9 +194,9 @@ export default defineConfig({
 
 建立首頁會用到的 **`src/views/Home.vue`** 元件檔。
 
-以及 **`src/router/index.js`** 路由檔，及其它更新。
+以及 **`src/router/index.js`** 路由檔。
 
-內容如下：
+然後更新以下原始碼，如下：
 
 {% tabs %}
 {% tab title="src/router/index.js" %}
