@@ -2,29 +2,79 @@
 
 ## 練習 1：checkbox 全選
 
-在 `practice` 資料夾下，建立 `ex1_checkbox.html` 檔案，給定以下 html：
+在 `practice` 資料夾下，建立 `ex1_checkbox.html` 檔案，直接貼以下的原始碼來解讀：
 
 {% code lineNumbers="true" %}
 ```html
-<div id="check_block">
-  <input type="checkbox" id="check_all" ref="my_check_all" @click="check_all_items"><label for="check_all">全選</label>
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
 
-  <hr>
+    <div id="app">
+      <input type="checkbox" id="check_all" :checked="isCheckAll" @click="checkAllItems"><label for="check_all">全選</label>
+    
+      <hr>
+      
+      <template v-for="item in items" :key="item.id">
+        <input type="checkbox" :id="item.id" :value="item.value" v-model="checkedItems">
+        <label :for="item.id">選項{{item.value}}</label>
+      </template>
+    </div>
 
-  <input type="checkbox" class="item" id="option1" @click="item_click"> <label for="option1">選項一</label>
-  <input type="checkbox" class="item" id="option2" @click="item_click"> <label for="option2">選項二</label>
-  <input type="checkbox" class="item" id="option3" @click="item_click"> <label for="option3">選項三</label>
-</div>
+    <script src="./vendors/vue/vue.global.js"></script>
+    <!-- <script src="./vendors/vue/vue.global.prod.js"></script> -->
+
+    <script>
+      const RootComponent = {
+        data(){
+          return {
+            items: [
+              {
+                id: "option1",
+                value: "a"
+              },
+              {
+                id: "option2",
+                value: "b"
+              },
+              {
+                id: "option3",
+                value: "c"
+              }
+            ],
+            checkedItems: []
+          };
+        },
+        computed: {
+          isCheckAll(e){
+            return this.checkedItems.length == this.items.length;
+          }
+        },
+        methods: {
+          checkAllItems(e){
+            //console.log(this.isCheckAll);
+            if(this.isCheckAll){
+              this.checkedItems = [];
+            }else{
+              let arr = [];
+              this.items.forEach((item, i) => {
+                arr.push(item.value);
+              });
+              this.checkedItems = arr;
+            }
+          }
+        }
+      };
+      Vue.createApp(RootComponent).mount("#app");
+    </script>
+  </body>
+</html>
 ```
 {% endcode %}
-
-
-
-參考作法：
-
-{% embed url="https://codepen.io/carlos411/pen/rNvaVJK" %}
-
-
 
 
 
