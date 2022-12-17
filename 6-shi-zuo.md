@@ -13,12 +13,10 @@
     <title></title>
   </head>
   <body>
-
     <div id="app">
       <input type="checkbox" id="check_all" :checked="isCheckAll" @click="checkAllItems"><label for="check_all">全選</label>
     
       <hr>
-      
       <template v-for="item in items" :key="item.id">
         <input type="checkbox" :id="item.id" :value="item.value" v-model="checkedItems">
         <label :for="item.id">選項{{item.value}}</label>
