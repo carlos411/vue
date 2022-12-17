@@ -2,7 +2,9 @@
 
 ## 練習 1：checkbox 全選
 
-在 `practice` 資料夾下，建立 `ex1_checkbox.html` 檔案，直接貼以下的原始碼來解讀：
+在 `practice` 資料夾下，建立 `ex1_checkbox.html` 檔案。
+
+第一步，貼以下的原始碼，將 items 陣列在畫面上渲染出來(底下 template 標籤的部份)：
 
 {% code lineNumbers="true" %}
 ```html
@@ -18,8 +20,8 @@
     
       <hr>
       <template v-for="item in items" :key="item.id">
-        <input type="checkbox" :id="item.id" :value="item.value" v-model="checkedItems">
-        <label :for="item.id">選項{{item.value}}</label>
+        <input type="checkbox" id="" value="">
+        <label for="">選項{{item.value}}</label>
       </template>
     </div>
 
@@ -43,28 +45,14 @@
                 id: "option3",
                 value: "c"
               }
-            ],
-            checkedItems: []
+            ]
           };
         },
         computed: {
-          isCheckAll(e){
-            return this.checkedItems.length == this.items.length;
-          }
+          
         },
         methods: {
-          checkAllItems(e){
-            //console.log(this.isCheckAll);
-            if(this.isCheckAll){
-              this.checkedItems = [];
-            }else{
-              let arr = [];
-              this.items.forEach((item, i) => {
-                arr.push(item.value);
-              });
-              this.checkedItems = arr;
-            }
-          }
+          
         }
       };
       Vue.createApp(RootComponent).mount("#app");
@@ -73,6 +61,10 @@
 </html>
 ```
 {% endcode %}
+
+
+
+第二步：
 
 
 
