@@ -84,7 +84,7 @@ isCheckAll(e){
 ```
 {% endcode %}
 
-然後全部的 checkbox，加以下的屬性綁定：
+然後全選的 checkbox，加以下的屬性綁定：
 
 {% code lineNumbers="true" %}
 ```javascript
