@@ -66,6 +66,14 @@
 
 第二步：
 
+在 data 函式回傳的資料當中，加一個 checkedItems 空陣列，且要選項的 checkbox 做綁定(使用 `v-model`)。
+
+然後請使用 vue 的 devtools 來觀察。
+
+
+
+
+
 
 
 參考作法：
