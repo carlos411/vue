@@ -72,6 +72,26 @@
 
 
 
+第三步：
+
+在 computed 物件中，加：
+
+{% code lineNumbers="true" %}
+```javascript
+isCheckAll(e){
+  return this.checkedItems.length == this.items.length;
+}
+```
+{% endcode %}
+
+然後全部的 checkbox，加以下的屬性綁定：
+
+{% code lineNumbers="true" %}
+```javascript
+:checked="isCheckAll"
+```
+{% endcode %}
+
 
 
 
