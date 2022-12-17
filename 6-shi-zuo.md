@@ -76,6 +76,12 @@
 
 
 
+參考作法：
+
+{% embed url="https://codepen.io/carlos411/pen/eYjOGzE" %}
+
+
+
 ## 練習 2：分頁器
 
 在 `practice` 資料夾下，建立 `ex2_paginator.html` 檔案，內容如下：
