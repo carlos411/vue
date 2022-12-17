@@ -16,7 +16,7 @@
   </head>
   <body>
     <div id="app">
-      <input type="checkbox" id="check_all" :checked="isCheckAll" @click="checkAllItems"><label for="check_all">全選</label>
+      <input type="checkbox" id="check_all"><label for="check_all">全選</label>
     
       <hr>
       <template v-for="item in items" :key="item.id">
