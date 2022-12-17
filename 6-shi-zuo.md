@@ -94,6 +94,35 @@ isCheckAll(e){
 
 
 
+第四步：
+
+替全選的 checkbox，做 click 事件上的綁定：
+
+{% code lineNumbers="true" %}
+```javascript
+@click="checkAllItems"
+```
+{% endcode %}
+
+然後在 methods 物件中，加：
+
+{% code lineNumbers="true" %}
+```javascript
+checkAllItems(e){
+  //console.log(this.isCheckAll);
+  if(this.isCheckAll){
+    this.checkedItems = [];
+  }else{
+    let arr = [];
+    this.items.forEach((item, i) => {
+      arr.push(item.value);
+    });
+    this.checkedItems = arr;
+  }
+}
+```
+{% endcode %}
+
 
 
 參考作法：
