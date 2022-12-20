@@ -263,7 +263,13 @@ checkAllItems(e){
 ```
 {% endcode %}
 
-那 **`./components/ThePaginator.js`**  應如何改寫？寫完後，如下 codepen：
+那 **`./components/ThePaginator.js`**  應如何改寫？
+
+* 加 props 屬性，是一個陣列，放入三個資料(`totalItems`、`itemsPerPage`、`currentPage`)。
+* 加一個 totalPages 的計算屬性(computed properties)，計算出總頁數。
+* template 屬性，修改樣版。
+
+寫完後，如下 codepen：
 
 {% embed url="https://codepen.io/carlos411/pen/OJZwYXd" %}
 
