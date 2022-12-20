@@ -279,7 +279,7 @@ checkAllItems(e){
 
 設定多個元件，然後做元件的顯示切換。
 
-使用 **`<component :is=""></component>`** 標籤，動態的決定要顯示哪個元件。
+可使用 **`<component :is="元件名稱"></component>`** 標籤，動態的決定要顯示哪個元件名稱。
 
 
 
