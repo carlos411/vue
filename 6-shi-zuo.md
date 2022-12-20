@@ -216,7 +216,11 @@ checkAllItems(e){
 ```
 {% endcode %}
 
-請建立 **`the-paginator`** 標籤(即 ThePaginator 元件)，產出的畫面結果要與上述程式碼相同，如下(僅列出 body 標籤的部份)：
+
+
+第一步：
+
+請建立 **`the-paginator`** 標籤(即 **`ThePaginator 元件`**)，產出的畫面結果要與上述程式碼相同，如下(僅列出 body 標籤的部份)：
 
 {% code lineNumbers="true" %}
 ```html
@@ -235,17 +239,15 @@ checkAllItems(e){
 ```
 {% endcode %}
 
-請練習撰寫 **`./components/ThePaginator.js`** 。
-
-
-
-參考作法如下 codepen：
+請練習撰寫 **`./components/ThePaginator.js`** 。寫完的結果如下 codepen：
 
 {% embed url="https://codepen.io/carlos411/pen/LYmBoYj" %}
 
 
 
-該 ThePaginator 元件，可帶入三個參數：
+第二步：
+
+讓 ThePaginator 元件，可帶入三個參數：
 
 * `total-items`：總共有幾筆資料。
 * `items-per-page`：每頁顯示幾筆資料。
@@ -253,7 +255,7 @@ checkAllItems(e){
 
 
 
-故使用 ThePaginator 元件，如下原始碼：
+故可使用 ThePaginator 元件，如下原始碼：
 
 {% code lineNumbers="true" %}
 ```html
@@ -261,11 +263,7 @@ checkAllItems(e){
 ```
 {% endcode %}
 
-那 **`./components/ThePaginator.js`**  應如何改寫？
-
-
-
-參考作法：
+那 **`./components/ThePaginator.js`**  應如何改寫？寫完後，如下 codepen：
 
 {% embed url="https://codepen.io/carlos411/pen/OJZwYXd" %}
 
