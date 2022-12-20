@@ -654,7 +654,7 @@ npm run preview
 
 ## 第 16 步：放 YouTube 影片來認識 SPA
 
-更新 **`src/App.vue`** 檔案，在 **`router-view`** 標籤同層的下方，加以下的原始碼：
+更新 **`src/App.vue`** 檔案，在 **`router-view`** 標籤 **同層的下方** 或 **裡面**，加以下的原始碼：
 
 {% code lineNumbers="true" %}
 ```html
