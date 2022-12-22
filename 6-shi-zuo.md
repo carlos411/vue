@@ -359,6 +359,53 @@ checkAllItems(e){
 
 
 
+第二步，以全域方式，載入三個元件，原始碼如下，請貼到恰當位置：
+
+{% code lineNumbers="true" %}
+```javascript
+app.component("tab1_content", {
+  template: `
+    <div class="a">tab1 的內容</div>
+  `
+});
+
+app.component("tab2_content", {
+  template: `
+    <div class="b">tab2 的內容</div>
+  `
+});
+
+app.component("tab3_content", {
+  template: `
+    <div class="c">tab3 的內容</div>
+  `
+```
+{% endcode %}
+
+
+
+第三步，設定一個計算屬性叫做 current\_tab\_component，回傳的會是元件名稱，元素始如下，請放到恰當位置：
+
+{% code lineNumbers="true" %}
+```javascript
+computed: {
+  current_tab_component(){
+    return this.currentTab + "_content";
+  }
+}
+```
+{% endcode %}
+
+
+
+第四步，使用 component 標籤，來決定要顯示哪一個元件：
+
+{% code lineNumbers="true" %}
+```html
+<component v-bind:is="current_tab_component" class="tab_content"></component>
+```
+{% endcode %}
+
 
 
 如下示意圖：
