@@ -379,6 +379,7 @@ app.component("tab3_content", {
   template: `
     <div class="c">tab3 的內容</div>
   `
+});
 ```
 {% endcode %}
 
