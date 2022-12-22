@@ -306,7 +306,7 @@ checkAllItems(e){
   </head>
   <body>
     <div id="the_block">
-      <button type="button" v-for="tab in tabs" :class="{active: currentTab == tab.id}" :key="tab.id" @click="currentTab = tab.id">{{ tab.name }}</button>
+      <button type="button">{{ tab.name }}</button>
 
     </div>
     
