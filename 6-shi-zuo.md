@@ -283,6 +283,72 @@ checkAllItems(e){
 
 
 
+第一步，在 `practice` 資料夾下，建立 `ex3_tab.html` 檔案，貼以下的原始嗎
+
+{% code lineNumbers="true" %}
+```html
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      .active{
+        background-color: red;
+        color: white;
+      }
+      .tab_content{
+        border: 1px solid lightgray;
+        padding: 10px;
+        margin-top: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="the_block">
+      <button type="button" v-for="tab in tabs" :class="{active: currentTab == tab.id}" :key="tab.id" @click="currentTab = tab.id">{{ tab.name }}</button>
+
+    </div>
+    
+    <script src="./vendors/vue/vue.global.js"></script>
+    <!-- <script src="./vendors/vue/vue.global.prod.js"></script> -->
+    
+    <script type="module">
+      var app = Vue.createApp({
+        data(){
+          return {
+            currentTab: "tab1",
+            tabs: [
+              {
+                id: "tab1",
+                name: "頁籤一"
+              },
+              {
+                id: "tab2",
+                name: "頁籤二"
+              },
+              {
+                id: "tab3",
+                name: "頁籤三"
+              }
+            ]
+          };
+        }
+      });
+
+      app.mount("#the_block");
+    </script>
+  </body>
+</html>
+```
+{% endcode %}
+
+
+
+
+
+
+
 如下示意圖：
 
 ![](.gitbook/assets/dynamic\_components.png)
@@ -295,5 +361,5 @@ checkAllItems(e){
 
 
 
-在 `practice` 資料夾下，建立 `ex3_tab.html` 檔案，將上方 CodePen 的範例，放到頁面當中，也要能夠正常運作。
+
 
