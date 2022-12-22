@@ -343,7 +343,19 @@ checkAllItems(e){
 ```
 {% endcode %}
 
+* button 標籤依據 tabs 資料，跑迴圈，跑出三個按鈕。
+* 如果資料 currentTab 是 tab1 或 tab2 或 tab3，那所對應的按鈕，就加 active 這個 class。
+* 按鈕點擊的時候，無將 id 的值，設定到 currentTab。
+* 標籤裡的文字，就是 name 的部份。
+* key 的部份，也要設定，`:key="tab.id"`。
 
+改完後，按鈕如下原始碼：
+
+{% code lineNumbers="true" %}
+```html
+<button type="button" v-for="tab in tabs" :class="{active: currentTab == tab.id}" :key="tab.id" @click="currentTab = tab.id">{{ tab.name }}</button>
+```
+{% endcode %}
 
 
 
