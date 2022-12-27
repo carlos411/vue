@@ -184,5 +184,7 @@ const vm = app.mount("#task_container");
 
 ## 參考作法
 
+[https://alldata.sgp1.digitaloceanspaces.com/sample/assignment\_vue\_done.zip](https://alldata.sgp1.digitaloceanspaces.com/sample/assignment\_vue\_done.zip)
+
 
 
