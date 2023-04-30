@@ -163,7 +163,31 @@ export default defineConfig({
 
 ## 第 5 步：認識 vue 檔
 
-將 **`style.css`** 檔的內容全部移除。
+將 **`style.css`** 檔的內容全部移除，改成如下：
+
+{% code lineNumbers="true" %}
+```css
+* {
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+/* 設定圖片最大寬度為 100% */
+img {
+  max-width: 100%;
+}
+
+footer.footer {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #999;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ccc;
+}
+```
+{% endcode %}
 
 將 **`App.vue`** 檔，更新成如下：
 
@@ -192,7 +216,7 @@ export default defineConfig({
 
 
 
-建立首頁會用到的 **`src/views/Home.vue`** 元件檔。
+建立首頁會用到的 **`src/views/Intro.vue`** 元件檔。
 
 以及 **`src/router/index.js`** 路由檔。
 
@@ -216,7 +240,7 @@ export default router;
 </code></pre>
 {% endtab %}
 
-{% tab title="src/views/Home.vue" %}
+{% tab title="src/views/Intro.vue" %}
 {% code lineNumbers="true" %}
 ```javascript
 <script>
