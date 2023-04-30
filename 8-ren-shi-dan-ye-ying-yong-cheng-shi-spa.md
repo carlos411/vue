@@ -493,7 +493,7 @@ createApp(App).use(router).mount('#app');
 
 
 
-## 第 7 步：建立第二個頁面
+## 第 9 步：建立第二個頁面(ProductList)
 
 更新以下程式：
 
@@ -503,12 +503,12 @@ createApp(App).use(router).mount('#app');
 
 {% code lineNumbers="true" %}
 ```javascript
-{path: '/destination/:id', name: 'destination', component: () => import('@/views/Destination.vue')}
+{path: '/product_list', name: 'ProductList', component: () => import('@/views/ProductList.vue')},
 ```
 {% endcode %}
 {% endtab %}
 
-{% tab title="src/views/Destination.vue" %}
+{% tab title="src/views/ProductList.vue" %}
 {% code lineNumbers="true" %}
 ```javascript
 <script>
