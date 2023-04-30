@@ -280,6 +280,18 @@ createApp(App).use(router).mount('#app');
 
 
 
+在編輯 Home.vue 時，若出現以下的訊息：
+
+<figure><img src=".gitbook/assets/volar_hint_1.png" alt=""><figcaption></figcaption></figure>
+
+可透過下圖來關掉提示(先進到編輯器的偏好設定)：
+
+<figure><img src=".gitbook/assets/volar_hint_2.png" alt=""><figcaption></figcaption></figure>
+
+
+
+
+
 ## 第 7 步：建立第二個頁面
 
 更新以下程式：
