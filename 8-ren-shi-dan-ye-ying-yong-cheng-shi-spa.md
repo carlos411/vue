@@ -673,7 +673,7 @@ createApp(App).use(router).mount('#app');
 
 
 
-
+到這邊就可以測試單頁式應用程式的效果，也就是在 footer 區域有個 audio，切換頁面時，音樂仍可以持續播。
 
 
 
@@ -690,6 +690,8 @@ npm run build
 ```
 npm run preview
 ```
+
+
 
 如果未來要上線，要上線的會是 **`dist`** 資料夾。
 
