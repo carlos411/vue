@@ -481,7 +481,7 @@ createApp(App).use(router).mount('#app');
 
 
 
-在編輯 Home.vue 時，若出現以下的訊息：
+在編輯 `Intro.vue` 時，若出現以下的訊息：
 
 <figure><img src=".gitbook/assets/volar_hint_1.png" alt=""><figcaption></figcaption></figure>
 
