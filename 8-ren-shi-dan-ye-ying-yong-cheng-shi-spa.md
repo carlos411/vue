@@ -161,7 +161,17 @@ export default defineConfig({
 
 
 
-## 第 5 步：認識 vue 檔
+## 第 5 步：放圖檔
+
+建立 `src/assets/images/` 資料夾，放入以下三張圖檔(直接下載)：
+
+[https://alldata.sgp1.digitaloceanspaces.com/images/vue\_images.zip](https://alldata.sgp1.digitaloceanspaces.com/images/vue\_images.zip)
+
+
+
+
+
+## 第 6 步：認識 vue 檔
 
 將 **`style.css`** 檔的內容全部移除，改成如下：
 
@@ -209,7 +219,7 @@ footer.footer {
 
 
 
-## 第 6 步：建立首頁
+## 第 7 步：建立首頁(Intro)
 
 * 建立 **`src/views/`** 資料夾：「`每個頁面(view)`」都會對應到一個「`vue 元件檔`」。
 * 建立 **`src/router/`** 資料夾：用來管理`網址(路由)`。
@@ -228,7 +238,7 @@ footer.footer {
 
 const routes = [
   // 網址定義：/；給定名稱 Home；載入 Home.vue 元件
-  {path: '/', name: 'Home', component: () => import('@/views/Home.vue')}
+  {path: '/', name: 'Home', component: () => import('@/views/Intro.vue')}
 ];
 
 <strong>const router = createRouter({
@@ -247,20 +257,147 @@ export default router;
   export default {
     data(){
       return {
-        msg: "Home"
       };
     }
   }
 </script>
 
 <template>
-  <div class="block">
-    這是：{{ msg }}
-  </div>
+  <div class="intro">
+      
+      <div class="intro__item">
+        <div class="intro__item__img">
+          <img src="@/assets/images/1_640x360.jpg">
+        </div>
+        <div class="intro__item__text">
+          <h2 class="title2">Kindle</h2>
+          <p class="para">
+            Kindle 是一款電子書閱讀器，由美國亞馬遜公司開發，於2007年11月19日推出。Kindle的名字來自於亞馬遜公司的網站名稱，亞馬遜公司的網站名稱是以亞馬遜河的名字命名的，而亞馬遜河的名字來自於一個古希臘語的詞，意思是「沒有尾巴的河」，而Kindle的名字也是以此為由。
+          </p>
+        </div>
+      </div>
+
+      <div class="intro__item">
+        <div class="intro__item__text">
+          <h2 class="title2">風景</h2>
+          
+          <p class="para">
+            綠色的海邊，橘黃色的沙灘，藍色的海，藍色的天空，白色的雲，這些都是海邊的風景。海邊的風景很漂亮，我們可以在海邊玩耍，也可以在海邊看日出日落。
+          </p>
+
+        </div>
+        <div class="intro__item__img">
+          <img src="@/assets/images/2_640x360.jpg">
+        </div>
+      </div>
+
+      <div class="intro__item">
+        <div class="intro__item__img">
+          <img src="@/assets/images/3_640x360.jpg">
+        </div>
+        <div class="intro__item__text">
+          <h2 class="title2">第三個區塊</h2>
+          <p class="para">
+            貓咪是一種可愛的動物，我們可以養貓，也可以養狗。貓咪的毛很柔軟，我們可以摸摸它的毛，也可以摸摸它的肚子。
+          </p>
+        </div>
+      </div>
+
+    </div>
 </template>
 
 <style scoped>
+/* div.intro__item 裡的內容橫向排列 */
+div.intro__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* 設定寬度，讓內容置中 */
+  width: 100%;
+  /* 設定上下間距 */
+  margin: 1rem 0;
+  /* 顯示邊框 */
+  border: 1px solid #ccc;
+}
+/* 左右兩個區塊寬度設定一樣 */
+div.intro__item > div {
+  width: 50%;
+  /* 不要有縫隙 */
+  padding: 0;
+}
+/* div.intro__item__img 想要放在上面，使用 align-self */
+div.intro__item__img {
+  align-self: flex-start;
+}
+/* div.div.intro__item__img 裡的圖片佔滿父元素 */
+div.intro__item__img > img {
+  width: 100%;
+}
+
+/* 圖片的下方不要有縫隙 */
+div.intro__item > div.intro__item__img > img {
+  vertical-align: bottom;
+}
+/* div.intro__item__img 奇數列跟旁邊的文字設定一點間距 */
+div.intro__item__img:nth-child(odd) {
+  margin-right: 1rem;
+}
+/* div.intro__item__img 偶數列跟旁邊的文字設定一點間距 */
+div.intro__item__img:nth-child(even) {
+  margin-left: 1rem;
+}
+/* 將 h2.title2 優化一下外觀 */
+h2.title2 {
+  font-size: 1.2rem;
+  color: #333;
+  /* 設定上下間距 */
+  margin: 0.5rem .5rem;
+}
+/* 將 p.para 優化一下外觀 */
+p.para {
+  font-size: 0.9rem;
+  color: #666;
+  /* 設定上下間距 */
+  margin: 0.5rem 0.5rem;
+}
+
+/* 在螢幕寬度小於等於 575.98px時，將 div.intro__item__img 放在 div.intro__item__text 的上方 */
+@media (max-width: 575.98px) {
+  /* 將 div.intro__item 裡的內容設定上下排 */
+  div.intro__item {
+    flex-direction: column;
+  }
+  div.intro__item__img {
+    order: 1;
+    /* 寬度 100% */
+    width: 100% !important;
+    /* 移除 margin 和 padding */
+    margin: 0 !important;
+    padding: 0;
+  }
+  /* div.intro__item__img 裡的圖片寬度直接佔滿父元素 */
+  div.intro__item__img > img {
+    width: 100%;
+  }
+  div.intro__item__text {
+    order: 2;
+    /* 寬度 100% */
+    width: 100% !important;
+  }
+  /* div.div.intro__item__text 裡面的 h2 和 p 給點內距 */
+  div.intro__item__text > h2, div.intro__item__text > p {
+    padding: 0 1rem;
+
+    /* 左邊的 margin 設定 0 */
+    margin-left: 0;
+    /* 右邊也是 */
+    margin-right: 0;
+
+  }
+}
 </style>
+
 ```
 {% endcode %}
 {% endtab %}
