@@ -287,7 +287,7 @@ footer.footer {
 <pre class="language-javascript" data-line-numbers><code class="lang-javascript">import { createRouter, createWebHistory } from "vue-router";
 
 const routes = [
-  // 網址定義：/；給定名稱 Home；載入 Home.vue 元件
+  // 網址定義：/；給定名稱 Intro；載入 Intro.vue 元件
   {path: '/', name: 'Home', component: () => import('@/views/Intro.vue')}
 ];
 
