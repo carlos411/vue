@@ -675,256 +675,9 @@ createApp(App).use(router).mount('#app');
 
 
 
-## 第 8 步：加上導覽列
-
-更新 **`src/App.vue`**，在 template 標籤當中，加以下的原始碼：
-
-{% code lineNumbers="true" %}
-```html
-<header>
-  <a href="/">首頁</a> |
-  <a href="/destination/1">臺北</a> |
-  <a href="/destination/2">桃園</a>
-</header>
-```
-{% endcode %}
-
-然後測一下(觀察開發者工具的 network)，測完之後，改成用以下：
-
-{% code lineNumbers="true" %}
-```html
-<header>
-  <router-link to="/">首頁</router-link> |
-  <router-link to="/destination/1">臺北</router-link> |
-  <router-link to="/destination/2">桃園</router-link>
-</header>
-```
-{% endcode %}
 
 
-
-## 第 9 步：加上資料
-
-加上 **`src/data.json`**，內容如下：
-
-{% code lineNumbers="true" %}
-```json
-{
-  "destinations": [
-    {
-      "name": "臺北",
-      "id": 1,
-      "description":"臺北景點描述"
-    },
-    {
-      "name": "桃園",
-      "id": 2,
-      "description":"桃園景點描述"
-    }
-  ]
-}
-```
-{% endcode %}
-
-
-
-## 第 10 步：加上迴圈跑導覽列
-
-更新 **`src/App.vue`**，script 標籤的部份，內容如下：
-
-{% code lineNumbers="true" %}
-```javascript
-<script>
-  import sourceData from "@/data.json";
-
-  export default {
-    data(){
-      return {
-        destinations: sourceData.destinations
-      };
-    }
-  }
-</script>
-```
-{% endcode %}
-
-
-
-header 標籤的部份，改成如下：
-
-{% code lineNumbers="true" %}
-```html
-<header>
-  <router-link to="/">首頁</router-link> |
-  <router-link v-for="destination in destinations" :key="destination.id" :to="'/destination/'+destination.id">
-    {{ destination.name }}
-  </router-link>
-  <!-- <router-link to="/destination/1">臺北</router-link> | -->
-  <!-- <router-link to="/destination/2">桃園</router-link> -->
-</header>
-```
-{% endcode %}
-
-
-
-## 第 11 步：景點頁面修改
-
-修改 **`views/Destination.vue`** 頁面：
-
-{% code lineNumbers="true" %}
-```javascript
-<script>
-  import sourceData from "@/data.json";
-
-  export default {
-    data(){
-      return {
-        //name: "臺北"
-      };
-    },
-    computed: {
-      // destination(){
-      //   var d = sourceData.destinations.find((destination) => {
-      //     return destination.id == parseInt(this.$route.params.id)
-      //   });
-      //   return d;
-      // },
-      destination(){
-        return sourceData.destinations.find(destination => destination.id == parseInt(this.$route.params.id));
-      }
-    }
-  }
-</script>
-
-<template>
-  <div class="block">
-    目的地：{{ destination.name }}
-    <br>
-    {{ destination.description }}
-
-  </div>
-</template>
-
-<style scoped>
-</style>
-```
-{% endcode %}
-
-
-
-## 第 12 步：建立導覽列元件
-
-建立 **`src/components/TheNavigation.vue`** 檔案，內容如下：
-
-{% code lineNumbers="true" %}
-```javascript
-<script>
-  import sourceData from "@/data.json";
-  export default {
-    data(){
-      return {
-        destinations: sourceData.destinations
-      };
-    }
-  }
-</script>
-
-<template>
-  <router-link v-for="destination in destinations" :key="destination.id" :to="'/destination/'+destination.id">
-    {{ destination.name }}
-  </router-link>
-</template>
-
-<style scoped>
-</style>
-```
-{% endcode %}
-
-
-
-更新 **`src/App.vue`**，內容如下：
-
-{% code lineNumbers="true" %}
-```javascript
-<script>
-  //import sourceData from "@/data.json";
-  import TheNavigation from "@/components/TheNavigation.vue";
-
-  export default {
-    components: {TheNavigation},
-    data(){
-      return {
-        //destinations: sourceData.destinations
-      };
-    }
-  }
-</script>
-
-<template>
-  <header>
-    <router-link to="/">首頁</router-link> |
-    
-    <TheNavigation></TheNavigation>
-    
-    <!-- <router-link v-for="destination in destinations" :key="destination.id" :to="'/destination/'+destination.id">
-      {{ destination.name }}
-    </router-link> -->
-    <!-- <router-link to="/destination/1">臺北</router-link> | -->
-    <!-- <router-link to="/destination/2">桃園</router-link> -->
-  </header>
-
-  <router-view v-slot="{Component}">
-    <component :is="Component" :key="$route.path"></component>
-  </router-view>
-</template>
-
-<style scoped>
-</style>
-```
-{% endcode %}
-
-
-
-## 第 13 步：載入外部 CSS
-
-建立 **`public/main.css`** 檔案：
-
-{% code lineNumbers="true" %}
-```css
-* {
-  box-sizing: border-box;
-}
-body{
-  margin: 0;
-}
-#app header{
-  background-color: #2c3e50;
-}
-
-#app header a{
-  color: white;
-  display: inline-block;
-  margin-right: 20px;
-}
-
-#app div.block{
-  background-color: #ddd;
-  height: 200px;
-}
-```
-{% endcode %}
-
-在 **`index.html`** 檔的 head 結束標籤之前，放以下原始碼：
-
-{% code lineNumbers="true" %}
-```html
-<link rel="stylesheet" href="/main.css">
-```
-{% endcode %}
-
-
-
-## 第 14 步：build and preview
+## 第 10 步：build and preview
 
 產生 dist 資料夾：
 
@@ -942,7 +695,7 @@ npm run preview
 
 
 
-## 第 15 步：建立另一個網頁檔
+## 第 11 步：建立另一個網頁檔
 
 在 **`spa-app`** 資料夾下，建立 **`index2.html`**，內容如下：
 
@@ -1002,25 +755,11 @@ npm run preview
 
 
 
-## 第 16 步：放 YouTube 影片來認識 SPA
-
-更新 **`src/App.vue`** 檔案，在 **`router-view`** 標籤 **同層的下方** 或 **裡面**，加以下的原始碼：
-
-{% code lineNumbers="true" %}
-```html
-<iframe width="560" height="315" src="https://www.youtube.com/embed/STWVMl_cGuc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-```
-{% endcode %}
-
-
-
-然後可再試試 **`router-link`** 與一般 **`a`** 標籤的差別。
-
 
 
 ## 完成的範例
 
-[https://alldata.sgp1.digitaloceanspaces.com/sample/spa-app.zip](https://alldata.sgp1.digitaloceanspaces.com/sample/spa-app.zip)
+
 
 需記得在 **`spa-app`** 資料夾下，執行以下指令來安裝相關套件(即產生 `node_modules` 資料夾)：
 
