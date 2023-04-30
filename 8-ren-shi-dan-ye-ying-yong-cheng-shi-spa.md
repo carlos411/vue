@@ -759,9 +759,13 @@ npm run preview
 
 ## 完成的範例
 
+上述步驟完成後的原始碼：
+
+[https://alldata.sgp1.digitaloceanspaces.com/sample/spa-app.zip](https://alldata.sgp1.digitaloceanspaces.com/sample/spa-app.zip)
 
 
-需記得在 **`spa-app`** 資料夾下，執行以下指令來安裝相關套件(即產生 `node_modules` 資料夾)：
+
+需在 **`spa-app`** 資料夾下，執行以下指令來安裝相關套件(即產生 `node_modules` 資料夾)：
 
 ```bash
 npm install
