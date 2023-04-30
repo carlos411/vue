@@ -2,7 +2,7 @@
 
 ## 前置
 
-將原來 jQuery 的作業(可用原來自己寫好的，或[講師寫好的版本](https://alldata.sgp1.digitaloceanspaces.com/sample/jquery\_assignment.zip))，複製一份，放到 **`assignment_vue`** 資料夾底下。然後執行以下幾點：
+將原來 js\_web 的作業(可用原來自己寫好的，或[講師寫好的版本](https://alldata.sgp1.digitaloceanspaces.com/sample%2Fassignment\_javascript\_web\_new.zip))，複製一份，放到 **`assignment_vue`** 資料夾底下。然後執行以下幾點：
 
 1. 在 assignment\_vue 資料夾下，建立 components 資料夾。
 2. 將 js/index.js 檔案，所有原始碼刪除。
