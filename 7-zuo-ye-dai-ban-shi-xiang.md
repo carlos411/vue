@@ -64,6 +64,10 @@ const vm = app.mount("#task_container");
 
 
 
+## 第 0 步：將資料儲存至 localStorage
+
+
+
 ## 第 1 步：text 欄位事件
 
 完成以下項目：
@@ -127,17 +131,6 @@ const vm = app.mount("#task_container");
 
 * 按下「移除」按鈕，淡出 1 秒，然後移除該筆待辦事項。
 * 按下「清空」按鈕，淡出 1 秒，清除全部的待辦事項。
-
-在 `css/index.css` 檔當中，加以下的 css：
-
-{% code lineNumbers="true" %}
-```css
-.fade{
-  opacity: 0;
-  transition: opacity 1s;
-}
-```
-{% endcode %}
 
 
 
