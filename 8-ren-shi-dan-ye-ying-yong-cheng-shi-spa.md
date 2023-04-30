@@ -692,9 +692,5 @@ npm install
 
 
 
-## 參考資料
-
-免費線上課程：[https://vueschool.io/courses/vue-router-4-for-everyone](https://vueschool.io/courses/vue-router-4-for-everyone)
-
 
 
