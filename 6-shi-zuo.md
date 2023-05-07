@@ -113,10 +113,10 @@ checkAllItems(e){
   if(this.isCheckAll){
     this.checkedItems = [];
   }else{
-    let arr = [];
-    this.items.forEach((item, i) => {
-      arr.push(item.value);
+    let arr = this.items.map((item, i) => {
+      return item.value;
     });
+    // arr 的結果是： ["a", "b", "c"]
     this.checkedItems = arr;
   }
 }
