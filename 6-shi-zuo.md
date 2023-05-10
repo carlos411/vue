@@ -345,7 +345,7 @@ checkAllItems(e){
 
 * button 標籤依據 tabs 資料，跑迴圈，跑出三個按鈕。
 * 如果資料 currentTab 是 tab1 或 tab2 或 tab3，那所對應的按鈕，就加 active 這個 class。
-* 按鈕點擊的時候，無將 id 的值，設定到 currentTab。
+* 按鈕點擊的時候，就將 id 的值，設定到 currentTab。
 * 標籤裡的文字，就是 name 的部份。
 * key 的部份，也要設定，`:key="tab.id"`。
 
@@ -385,7 +385,7 @@ app.component("tab3_content", {
 
 
 
-第三步，設定一個計算屬性叫做 current\_tab\_component，回傳的會是元件名稱，元素始如下，請放到恰當位置：
+第三步，設定一個計算屬性叫做 current\_tab\_component，回傳的會是元件名稱，程式如下，請放到恰當位置：
 
 {% code lineNumbers="true" %}
 ```javascript
@@ -399,7 +399,7 @@ computed: {
 
 
 
-第四步，使用 component 標籤，來決定要顯示哪一個元件：
+第四步，使用 Vue 內建特有的一個 component 元件標籤，來決定要顯示哪一個元件：
 
 {% code lineNumbers="true" %}
 ```html
