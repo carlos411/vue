@@ -457,9 +457,7 @@ createApp(App).use(router).mount('#app');
   <TheNavigation></TheNavigation>
 
   <!-- 使用 router-view 來呈現頁面網址對應的元件 -->
-  <router-view v-slot="{Component}">
-    <component :is="Component" :key="$route.path"></component>
-  </router-view>
+  <router-view></router-view>
 
   <footer class="footer">
     <audio controls loop>
