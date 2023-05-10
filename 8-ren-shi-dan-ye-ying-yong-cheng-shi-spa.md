@@ -775,5 +775,40 @@ npm install
 
 
 
+## 練習 Composition API
+
+以 `Intro.vue` 為例，寫個計數器。
+
+
+
+涵蓋 Lifecycle Hooks、Event Handling、Reactivity Fundamentals：
+
+{% code lineNumbers="true" %}
+```html
+<script setup>
+  import { onMounted, ref } from "vue"
+  
+  onMounted(() => {
+    console.log("test")
+  })
+  
+  let count = ref(5)
+
+  function plusOne(e){
+    count.value++
+  }
+</script>
+
+<template>
+
+  <button type="button" @click="plusOne">{{ count }}</button>
+  
+  ...
+  ...
+  
+</template>
+```
+{% endcode %}
+
 
 
