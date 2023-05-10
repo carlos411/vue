@@ -757,23 +757,7 @@ npm run preview
 
 
 
-## 完成的範例
-
-上述步驟完成後的原始碼：
-
-[https://alldata.sgp1.digitaloceanspaces.com/sample/spa-app.zip](https://alldata.sgp1.digitaloceanspaces.com/sample/spa-app.zip)
-
-
-
-需在 **`spa-app`** 資料夾下，執行以下指令來安裝相關套件(即產生 `node_modules` 資料夾)：
-
-```bash
-npm install
-```
-
-
-
-## 練習 Composition API
+## 第 12 步：練習 Composition API
 
 以 `Intro.vue` 為例，寫個計數器。
 
@@ -807,6 +791,22 @@ npm install
 </template>
 ```
 {% endcode %}
+
+
+
+## 完成的範例
+
+上述步驟完成後的原始碼：
+
+[https://alldata.sgp1.digitaloceanspaces.com/sample/spa-app-202304.zip](https://alldata.sgp1.digitaloceanspaces.com/sample/spa-app-202304.zip)
+
+
+
+需在 **`spa-app`** 資料夾下，執行以下指令來安裝相關套件(即產生 `node_modules` 資料夾)：
+
+```bash
+npm install
+```
 
 
 
