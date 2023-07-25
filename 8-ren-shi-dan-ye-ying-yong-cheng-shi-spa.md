@@ -129,13 +129,13 @@ npm install vue-router@4
 
 
 
-## 第 4 步：設定 `@` 指向到 src 資料夾
+## 第 4 步：設定 `@` 指向到 src 資料夾及設定 base
 
 更新 **`vite.config.js`** 檔案。
 
-設定別名 **`@`** 指向到 **`src`** 資料夾：
+設定別名 **`@`** 指向到 **`src`** 資料夾，設定 base 可使用相對路徑。
 
-新增第3行及第8行的 resolve：
+新增第 3 行、第 7 行的 base 及第 9 行的 resolve：
 
 {% code lineNumbers="true" %}
 ```javascript
