@@ -285,7 +285,7 @@ footer.footer {
 
 {% tabs %}
 {% tab title="src/router/index.js" %}
-<pre class="language-javascript" data-line-numbers><code class="lang-javascript">import { createRouter, createWebHistory } from "vue-router";
+<pre class="language-javascript" data-line-numbers><code class="lang-javascript">import { createRouter, createWebHashHistory, createWebHistory } from "vue-router";
 
 const routes = [
   // 網址定義：/；給定名稱 Intro；載入 Intro.vue 元件
@@ -293,7 +293,7 @@ const routes = [
 ];
 
 <strong>const router = createRouter({
-</strong>  history: createWebHistory(),
+</strong>  history: createWebHashHistory(),
   routes
 });
 
