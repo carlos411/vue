@@ -33,5 +33,4 @@
   * [5.6 Provide 和 Inject](5-vue-yuan-jian/5.6-provide-he-inject.md)
 * [6 介面實作](6-shi-zuo.md)
 * [7 作業：待辦事項](7-zuo-ye-dai-ban-shi-xiang.md)
-* [8 認識單頁應用程式(SPA)](8-ren-shi-dan-ye-ying-yong-cheng-shi-spa.md)
-* [9 參考資料](9-can-kao-zi-liao.md)
+* [8 參考資料](8-can-kao-zi-liao.md)
