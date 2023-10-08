@@ -32,5 +32,4 @@
   * [5.5 slots 機制](5-vue-yuan-jian/5.5-slots-ji-zhi.md)
   * [5.6 Provide 和 Inject](5-vue-yuan-jian/5.6-provide-he-inject.md)
 * [6 介面實作](6-shi-zuo.md)
-* [7 作業：待辦事項](7-zuo-ye-dai-ban-shi-xiang.md)
-* [8 參考資料](8-can-kao-zi-liao.md)
+* [7 參考資料](7-can-kao-zi-liao.md)
