@@ -11,6 +11,7 @@
 * [3 安裝 Vue](3-an-zhuang-vue/README.md)
   * [3.1 下載安裝](3-an-zhuang-vue/3.1-xia-zai-an-zhuang.md)
   * [3.2 第一個 Vue](3-an-zhuang-vue/3.2-di-yi-ge-vue.md)
+  * [3.3 計數器](3-an-zhuang-vue/3.3-ji-shu-qi.md)
 * [4 核心語法](4-he-xin-yu-fa/README.md)
   * [4.1 MVVM 模式及根元件](4-he-xin-yu-fa/4.1-mvvm-mo-shi.md)
   * [4.2 樣版 template - 語法](4-he-xin-yu-fa/4.2-yang-ban-template-yu-fa.md)
