@@ -78,7 +78,7 @@
 
 {% code lineNumbers="true" %}
 ```javascript
-isCheckAll(e){
+isCheckAll(){
   return this.checkedItems.length == this.items.length;
 }
 ```
